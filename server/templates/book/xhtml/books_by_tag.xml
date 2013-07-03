@@ -1,0 +1,52 @@
+{% extends "book/base.html" %}
+{% load i18n %}
+
+{% block title %}{%trans "Books by tag"%}{% endblock %}
+
+{% block script %}
+    <script type="text/javascript" src="/{{ MEDIA_URL }}/js/views/jQuery.js" ></script>
+    <script type="text/javascript" >
+        function toggle_sub() {
+            var subs = document.getElementsByClassName("sub");
+            for (var i = 0; i < subs.length; i++) {
+                $(subs[i]).toggle();
+            }
+        return false;
+        }
+    </script>
+{% endblock %}
+
+{% block content %}
+    <div id="header">
+        <h1>{%trans "Books by tag"%}: </h1>
+    </div>
+
+    <a href="#" onclick="return toggle_sub()">{%trans "Show additional tags"%}</a>
+
+    {% for tagnum, subtags in tags_sub %}
+        <h2><a href="../search?tag={{ tagnum.0 }}">{{ tagnum.0 }} ({{tagnum.1}})</a></h2>
+
+        {% for tagnum1 in subtags.0 %}
+
+            {% if tagnum1.0 %}
+                <a href="../search?tag={{ tagnum1.0 }}">{{ tagnum1.0 }} ({{tagnum1.1}})</a><br>
+            {% else %}
+                {% if tagnum1.1 %}
+                    <a href="../search?tag={{ tagnum.0 }}: прочее">{{ tagnum.0 }}: прочее ({{tagnum1.1}})</a><br>
+                {% endif %}
+            {% endif %}
+
+        {% endfor %}
+        {% if subtags.1 %}
+            <div class="sub" style="display: none;">
+            <br>
+            {%trans "Additional tags"%}:
+            <br>
+                {% for tagnum1 in subtags.1 %}
+                    <small><a href="../search?tag={{ tagnum1.0 }}">{{ tagnum1.0 }} ({{tagnum1.1}})</a></small><br>
+            {% endfor %}
+            </div>
+        {% endif %}
+    {% endfor %}
+
+{% endblock %}

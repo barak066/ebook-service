@@ -1,0 +1,34 @@
+{% if query %}
+    <link href="search.atom?page={{curr}};items_per_page={{items_per_page}};query={{ query }}" rel="self"/>
+    {% if next%}
+        <link rel="next" href="search.atom?page={{next}};items_per_page={{items_per_page}};query={{ query }} " type="application/atom+xml"/>
+    {%endif%}
+{% else %}
+
+    {% if title.author and title.tit %}
+        <link href="search.atom?page={{curr}};items_per_page={{items_per_page}};author={{ title.author }};title={{ title.tit }}" rel="self"/>
+        {% if next%}
+            <link rel="next" href="search.atom?page={{next}};items_per_page={{items_per_page}};author={{ title.author }};title={{ title.tit }}" type="application/atom+xml"/>
+        {%endif%}
+    {% else %}
+        {% if not title.author and not title.tit %}
+            <link href="all.atom?page={{curr}};items_per_page={{items_per_page}};" rel="self"/>     
+            {% if next%}
+                <link rel="next" href="all.atom?page={{next}};items_per_page={{items_per_page}}" type="application/atom+xml"/>
+            {%endif%}
+        {% else %}    
+            {% if title.tit %}
+                <link href="search.atom?page={{curr}};items_per_page={{items_per_page}};title={{ title.tit }}" rel="self"/>
+                {% if next%}
+                    <link rel="next" href="search.atom?page={{next}};items_per_page={{items_per_page}};title={{ title.tit }}" type="application/atom+xml"/>
+                {%endif%}
+            {% endif %}
+            {% if title.author %}
+                <link href="search.atom?page={{curr}};items_per_page={{items_per_page}};author={{ title.author }}" rel="self"/>
+                {% if next%}
+                    <link rel="next" href="search.atom?page={{next}};items_per_page={{items_per_page}};author={{ title.author }}" type="application/atom+xml"/>
+                {%endif%}
+            {% endif %}
+        {% endif %}
+    {% endif %}
+{% endif %}

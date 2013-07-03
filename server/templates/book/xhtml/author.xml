@@ -1,0 +1,52 @@
+{% extends "book/base.html" %}
+{% load pagination_tags %}
+{% load i18n %}
+
+{% block title %}{{ author.name }}{% endblock %}
+{% block style %}
+    <style type="text/css">
+        img.cover {margin-top: 3px; max-height: 110px;}
+    </style>    
+{% endblock %}
+
+{% block content %}
+    <div class="author">
+        <h1>{{ author.name }}: </h1>
+    </div>
+
+    {%if author.tag.all%}
+        <div class="author_tags">
+            <div class="tags">{% trans "Tags" %}:
+                {% for tag in author.tag.all %}
+                    <a href="../search?tag={{ tag }}" class="tag">{{ tag }}</a>
+                {% endfor %}
+            </div>
+        </div><br/><br/>
+    {%endif%}
+
+    {% autopaginate books 20 %}   
+    {% for book in books %}
+        <table cellpadding="5" cellspacing="5">
+        <tr><td>
+        {% include 'book/xhtml/book_cover.xml' %}
+        </td><td>
+            <div class="author"><a href="../book/id{{ book.id }}">{{ book.title }}</a></div>
+            <div>&nbsp;&nbsp;&nbsp;<em>{% trans "by" %}
+              {% for author in book.author.all %}
+                 <a href="../author/id{{ author.id }}" class="gray">{{ author.name }}</a>
+              {% endfor %}
+        </em>
+            </div><br/>    
+            {% include 'book/xhtml/book_description.xml' %}
+            
+            {% for annotation in book.annotation.all %}
+                    <annotation> {{ annotation }} </annotation>
+            {% endfor %}
+        </td></tr>
+        </table>      
+        <hr class="space" />
+
+    {% endfor %}
+    {% paginate %}
+
+{% endblock %}

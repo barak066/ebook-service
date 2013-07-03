@@ -1,0 +1,22 @@
+{% load i18n %}
+{% if book.language.short %}
+    {% ifequal book.language.short "?"%}
+        <h4 class="language">{% trans "Language"%}: <em>{{ book.language.short }}</em>
+        </h4>
+    {% else %}
+    <div class="language">{% trans "Language"%}: <em><a href="../search?lang={{ book.language.short }}">{{ book.language.short }}</a></em>
+    </div>
+    {% endifequal %}
+{% endif %}
+
+{% if book.tag.all %}
+    <div class="tags">{% trans "Tags"%}:
+        {% for tag in book.tag.all %}
+            <em><a href="../search?tag={{ tag }}" class="tag">{{ tag }}</a> </em>
+        {% endfor %}
+    </div>
+{% endif %} 
+
+{% if not book.language.short and not book.tag.all%}
+    <br/><br/>
+{% endif %} 

@@ -1,0 +1,13 @@
+{% load i18n %}
+{% if bottom_string %}
+<br/><br/><br/><br/>
+<div id='bottom' style="position:bottom:0; text-align: center; ">
+{{bottom_string}} <br/>
+email: an.apparat@gmail.com | <a href = '{{google_link}}'> {%trans "Project on google code"%} </a> 
+
+
+</div>
+
+{% endif %}
+</body>
+</html>

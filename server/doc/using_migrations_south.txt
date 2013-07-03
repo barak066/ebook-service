@@ -1,0 +1,42 @@
+HOW TO USE South (Django app for migrations)
+
+--------------------------------------------------------------------------------------
+VERSION OF PYTHON
+South 0.7.3 is not working under python 2.4, so we use python 2.6.5 for that.
+
+--------------------------------------------------------------------------------------
+MAIN COMMANDS AND EXAMPLES:
+
+# apply all migrations for 'book' app:
+    python manage.py migrate book
+
+# make new migration for app 'book' automatically and name it 'add_new_field':    
+    python manage.py schemamigration book add_new_field --auto
+    
+# unmigrate to old migration for app 'book' (to the first migration)
+    python manage.py migrate book 0001
+
+--------------------------------------------------------------------------------------
+FISRT MIGRATION
+
+To make the first migration (it's necessary, because I've add new field 'image' to book model) you should make following 3 steps:
+
+all commands are running in 'server' as working directory:
+
+# syncdb , after that south app will create own tables in database
+    python2.6 manage.py syncdb 
+# 'fake' applying first migration (because it's initial and all fields are in DB yet!)
+    python2.6 manage.py migrate book 0001 --fake
+# applying other all migrations
+    python2.6 manage.py migrate book
+
+
+--------------------------------------------------------------------------------------
+IN FUTURE
+ 
+In future, if someone have made changes in the model, you should just run
+
+    python2.6 manage.py migrate book
+
+to apply all changes to database on your local host.
+

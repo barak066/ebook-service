@@ -1,0 +1,66 @@
+{% extends "book/base.html" %}
+{% load pagination_tags %}
+{% load i18n %}
+
+{% block title %}{% trans "Authors" %}{% endblock %}
+
+{% block script %}
+    <script type="text/javascript" src="/{{ MEDIA_URL }}/js/views/jQuery.js" ></script>
+    <script type="text/javascript" >
+        $(document).ready(function(){              // по окончанию загрузки страницы
+            $('#search_input').keyup(function(ev) {
+                //var regex = /\?.*letters=(.*)(&|$)/;
+                //var href = $(location).attr('href');
+                //var match = regex.exec(href);
+                //if(match != null) {
+                    $("#quick_search_results").load("/ajax/authors?letter=" + $(this).attr('value'));
+                //}
+            });
+            var regex = /\?.*letters?=(.*)(&|$)/;
+            var href = $(location).attr('href');
+            var match = regex.exec(href);
+            if(match != null) {
+                $('#search_input').attr("value", decodeURI(match[1]));
+            }
+        $("#quick_search_results").load("/ajax/authors?letter=" + $('#search_input').attr('value'));
+        });
+        function open_qs_page(p) {
+            $("#quick_search_results").load("/ajax/authors?letter=" + $('#search_input').attr('value') + "&page=" + p);
+            return false;
+        }
+        function f() {
+            window.location.href = '/discover/authors?letters=' + encodeURI($('#search_input').attr('value'));
+            return false;
+        }
+    </script>
+{% endblock %}
+
+{% block content %}
+    <div id="header">
+        <h1><a href="/discover/authors">{% trans "Authors" %}: </a></h1>
+    </div>
+    {% if num %}
+        <div id="quick_search">
+            <p>{% trans "Quick search" %}</p>
+            <form onsubmit="return f();">
+                <input id="search_input" ></input>
+                <input id="search_button" type="submit" value="{% trans "Search" %}"> </input>
+            </form>
+        </div>
+    {% endif %}
+
+    {% if strings %}
+        {% for string in strings %}
+            <div>
+                {% for letter in string %}
+                    {% ifequal num 1 %}
+                        <font color="#003ba6" size="5"><a class="letter" href="authors?letter={{ letter.0 }}">{{ letter.0 }}</a></font>&nbsp;
+                    {% endifequal %}
+                {% endfor %}
+            </div>
+        {% endfor %}
+
+    {% endif %}
+    <div id="quick_search_results">
+    </div>
+{% endblock %}

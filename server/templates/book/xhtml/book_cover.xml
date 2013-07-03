@@ -1,0 +1,11 @@
+{% if not book.image %}
+    <a href="/book/id{{ book.id }}"><img alt="{{ book.title }}" class="cover" align="left" border="0" hspace="10" src="/{{MEDIA_URL}}/pic/open_book.png" title="{{ book.title }}" /></a>
+{% else %}
+    <a href="/book/id{{ book.id }}"><img alt="{{ book.title }}" class="cover" align="left" border="0" hspace="10" title="{{ book.title }}"
+    {% if book.has_own_picture %}
+        src="/{{ MEDIA_URL }}/{{ book.image.url }}"
+    {% else %}
+        src="{{book.image.url}}"
+    {% endif %}
+    /></a>
+{% endif %} 

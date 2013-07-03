@@ -1,0 +1,44 @@
+<response>
+    <status>ok</status>
+
+    {% if authors %}
+    <result_length> {{ authors|length }} </result_length>
+
+    <authors>
+        {% for author in authors %}
+        <author id="{{ author.id }}">
+            <name> {{ author.name }} </name>
+            <rel> {{ author.rel }} </rel>
+            <credit> {{ author.credit }} </credit>
+        </author>
+        {% endfor %}
+    </authors>
+    {% endif %}
+
+    {% if books %}
+    <result_length> {{ books|length }} </result_length>
+
+    <books>
+        {% for book in books %}
+        <book id="{{ book.id }}">
+            <title> {{ book.title }} </title>
+            <rel> {{ book.rel }} </rel>
+            <credit> {{ book.credit }} </credit>
+
+            {% if book.author %}
+            <authors>
+                {% for author in book.author.all %}
+                <author id="{{ author.id }}">
+                    <name> {{ author.name }} </name>
+                    <credit> {{ author.credit }} </credit>
+                </author>
+                {% endfor %}
+            </authors>
+            {% endif %}
+
+        </book>
+        {% endfor %}
+    </books>
+    {% endif %}
+
+</response>

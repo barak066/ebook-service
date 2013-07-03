@@ -1,0 +1,2 @@
+mysqldump -u root project2 book_language book_author book_author_alias book_book_author book_author_tag book_authoralias book_book book_book_book_file book_book_series book_book_tag book_bookfile book_series book_tag book_annotation -ntc -p > book_dump_data_d.sql
+

@@ -1,0 +1,21 @@
+{% extends "book/base.html" %}
+{% load i18n %}
+{% block title %}No results{% endblock %}      
+
+{% block content %}
+    {% if is_simple %}
+        {% include 'book/xhtml/simple_search_form.xml' %}
+    {% else %}
+        {% include 'book/xhtml/extended_search_form.xml' %}
+    {% endif %}
+    <hr class="space" /><br/>
+    <div style="font-size:15pt;"> 
+    {% trans "Your search did not match any documents." %}<br/><br/>
+
+    {% trans "Suggestions" %}:
+    <ul>
+        <li> {% trans "Make sure all words are spelled correctly." %}</li>
+        <li> {% trans "Try fewer keywords." %}</li>
+    </ul>
+    </div>
+{% endblock %}

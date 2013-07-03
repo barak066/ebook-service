@@ -1,0 +1,36 @@
+{% extends "epub/base.xhtml" %}
+{% load i18n %}
+
+{% block title %}{% trans "Add book." %}{% endblock %}
+
+{% block content %}
+    <br/>
+    <div align="center">
+    <table width="80%">
+        <tr>
+            <td align="center">
+                {% trans "Create book from txt file" %}
+            </td>
+            <td align="center">
+                {% trans "Create book from doc file" %}
+            </td>
+        </tr>
+        <tr>
+            <td align="center">
+                <span id="txt">
+                    <a href="create/txt/">
+                        <img src="/{{ MEDIA_URL }}/pic/notepad.png" title="{% trans "Create book from txt file" %}" alt="{% trans "Create book from txt file" %}">
+                    </a>
+                </span>
+            </td>
+            <td align="center">
+                <span id="doc">
+                    <a href="create/doc/">
+                        <img src="/{{ MEDIA_URL }}/pic/doc.jpg" title="{% trans "Create book from doc file" %}" alt="{% trans "Create book from doc file" %}">
+                    </a>
+                </span>
+            </td>
+        </tr>
+    </table>
+    </div>
+{% endblock %}

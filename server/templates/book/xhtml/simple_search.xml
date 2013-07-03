@@ -1,0 +1,9 @@
+{% extends "book/base.html" %}
+{% load i18n %}
+
+{% block title %}Search{% endblock %}
+
+{% block content %}
+    {% include 'book/xhtml/simple_search_form.xml' %}
+
+{% endblock %}

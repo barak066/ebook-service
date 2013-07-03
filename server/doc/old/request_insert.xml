@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book>
+    <title></title>
+    <lang></lang>
+
+    <authors>
+        <author>
+            <name> </name>
+            <alias> </alias>
+            <alias> </alias>
+        </author>
+    </authors>
+
+    <files>
+        <file>
+            <link></link>
+            <size></size>
+            <type></type>
+
+            <more_info></more_info>
+            <img_link></img_link>
+        </file>
+    </files>
+
+    <annotation></annotation>
+    <annotation></annotation>
+    <annotation></annotation>
+
+</book>

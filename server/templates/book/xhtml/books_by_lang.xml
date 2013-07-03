@@ -1,0 +1,15 @@
+{% extends "book/base.html" %}
+{% load i18n %}
+
+{% block title %}Books by language{% endblock %}
+
+{% block content %}
+    <div id="header">
+        <h1>{%trans "Books by language"%}: </h1>
+    </div>
+
+    {% for lang in languages %} 
+        <h3><a href="../search?lang={{ lang.short }}">{% trans lang.full %} ({{ lang.book_set.count }}) </a></h3>
+    {% endfor %} 
+
+{% endblock %}

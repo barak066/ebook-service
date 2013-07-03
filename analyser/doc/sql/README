@@ -1,0 +1,2 @@
+book_language.sql -- adding list of many languages to database
+truncate.sql -- contains code, that clean up tables for Book app

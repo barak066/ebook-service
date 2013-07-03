@@ -1,0 +1,121 @@
+{% extends "book/base.html" %}
+{% load i18n %}
+{% load pagination_tags %}
+
+{% block title %}Search results for: 
+    {% if query %}
+        Query "{{ query }}";
+    {% endif %}
+    {% if title.tit %}
+        Title "{{ title.tit }}";
+    {% endif %} 
+    {% if title.author %}
+        Author "{{ title.author }}";
+    {% endif %}
+    {% if title.lang %}
+        Language "{{ title.lang }}";
+    {% endif %}
+    {% if title.tag %}
+        Tag "{{ title.tag }}";
+    {% endif %}
+{% endblock %}
+
+{% block style %}
+<style type="text/css">    
+    img.cover {margin-top: 3px; max-height: 110px;}
+</style> 
+{% endblock %}
+
+
+{% block content %}
+    {% if query %}
+        {% include "book/xhtml/simple_search_form.xml" %}
+    {% else %}
+        {% include "book/xhtml/extended_search_form.xml" %}
+    {% endif %}
+
+    {% if authors %}
+    <div id="authors">
+        <h3>{%trans "Authors"%}:</h3>
+
+        {% for author in authors %}
+            <div>
+                    <a href="author/id{{ author.id }}" class="gray">{{ author.name }}</a></em>
+            </div>
+        {% endfor %}
+        <h4>{%trans "More results"%}:  <a href="search?title=;author={{ query }};lang=;tag=" class="gray">{{ query }}</a></em></h4>
+    </div>
+    {% endif %}
+
+    {% if books %}
+        <h2>{%trans "Found in books"%}:</h2>
+        
+        {# {% autopaginate books items_per_page %} #}
+        {% for book in books %}
+
+            <hr class="space" />
+
+            <table cellpadding="5" cellspacing="5">
+            <tr><td>
+
+            {% include 'book/xhtml/book_cover.xml' %}
+            </td>
+            <td>
+            <div class="book_title"><a href="book/id{{ book.id }}" class="title">{{ book.title }}</a></div>
+            
+            {% if book.author.all %}
+                <div class="author">&nbsp;&nbsp;&nbsp;<em>{%trans "by"%} 
+                  {% for author in book.author.all %}
+                     <a href="author/id{{ author.id }}" class="author">{{ author.name }}</a>
+                  {% endfor %}
+                </em>
+                </div>   
+            {% endif %} 
+            <br/>
+
+            {% include 'book/xhtml/book_description.xml' %}
+            {% if not book.annotation.all.0 %}
+                 <br/>
+            {% else %}
+                <annotation> {{ book.annotation.all.0 }} </annotation>
+            {% endif %}
+            {% if not book.language.short %}
+                <br/><br/>
+            {% endif %}
+            </td></tr>
+            </table>
+            </div>
+        {% endfor %}
+
+        <hr class="space" />
+
+        <div class="pager">
+            {% if has_previous %}
+                <span class="page">
+                    <a href="?{{ request_string }}page={{ previous }}">&lt;&lt;</a>
+                </span>
+            {% endif %}
+
+            {% if show_first %}
+                <span class="page"><a href="?{{ request_string }}page=1">1</a></span>
+                <span class="ellipsis">...</span>
+            {% endif %}
+            {% for linkpage in page_numbers %}
+                {% ifequal linkpage page %}
+                    <span class="current">{{ page }}</span>
+                {% else %}
+                    <span class="page"><a href="?{{ request_string }}page={{ linkpage }}"
+                        >{{ linkpage }}</a></span>
+                {% endifequal %}
+            {% endfor %}
+            {% if show_last %}
+                <span class="ellipsis">...</span>
+                <span class="page"><a href="?{{ request_string }}page={{ pages }}">{{ pages }}</a></span>
+            {% endif %}
+            {% if has_next %}
+                <span class="page"><a href="?{{ request_string }}page={{ next }}">&gt;&gt;</a></span>
+            {% endif %}
+        </div>
+        {#{% paginate %} #}
+    {% endif %}
+{% endblock %}

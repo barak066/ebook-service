@@ -1,0 +1,20 @@
+{% include 'book/opds/header.xml' %}
+{% load i18n %}
+    <link href="search.atom?" rel="alternate"></link>
+    <title>No results | eBookSearch</title>      
+
+    <opensearch:totalResults> 0 </opensearch:totalResults>
+    <opensearch:itemsPerPage> 0 </opensearch:itemsPerPage>
+
+    <entry>
+    <id>0</id>
+    <title>{%trans "Your search did not match any documents."%}
+
+    </title>
+    <summary> {%trans "Suggestions"%}:
+    {%trans "Make sure all words are spelled correctly."%}
+    {%trans "Try fewer keywords."%}
+    </summary>
+    <updated></updated>
+    </entry>
+</feed>

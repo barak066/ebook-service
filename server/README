@@ -1,0 +1,5 @@
+To start project you should set PYTHONPATH
+  
+  export PYTHONPATH=..
+
+

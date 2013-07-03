@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block head %}
+    <title>{% block title %}{% trans "Register" %}{% endblock %} | eBookSearch</title>
+    {% block style %}{% endblock %}
+    {% block script %}
+    {% endblock %}
+{% endblock%}
+
+{% block body %}
+    <center><a href="/"><img alt="eBookSearch" border="0" hspace="10"  src="/{{ MEDIA_URL }}/pic/title.png" title="eBookSearch" /></a></center>
+    {% if menu_on %}
+        <div id='menu'>
+            <span id='create_epub'>
+                <a href='/epub/'>{% trans "Create epub book" %}</a>
+            </span>
+            <span id='login'>
+                <a href='/account/signin'>{% trans "Sign in" %}</a>
+            </span>
+            <span id='register'>
+                <a href='/register'>{% trans "Register" %}</a>
+            </span>
+        </div>
+    {% endif %}
+    <div id='content'>
+        {% block content %}{% endblock %}
+    </div>
+{% endblock %}

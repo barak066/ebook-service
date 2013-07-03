@@ -1,0 +1,20 @@
+{% load i18n %}
+{% load pagination_tags_ajax %}
+{% if authors %}
+    {% autopaginate authors 10 %}
+    {% for author in authors %}
+        <table cellpadding="5" cellspacing="5">
+            <tr><td>
+                <img alt="{{ book.title }}" class="cover" align="left" border="0" hspace="10" width="50" src="/{{MEDIA_URL}}/pic/author.png" title="{{ author.name }}" />
+            </td><td>
+                <h3><a href="../author/id{{ author.id }}">{{ author.name }}</a></h3>
+            </td></tr>
+        </table>
+        <hr class="space" />
+    {% endfor %}
+    {% paginate %}
+{% else %}
+    {% if not empty %}
+        <h3>{%trans "No authors found"%}</h3>
+    {% endif %}
+{% endif %}

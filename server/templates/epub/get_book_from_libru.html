@@ -1,0 +1,31 @@
+{% extends "epub/base.xhtml" %}
+
+{% block title %}Get book from libru{% endblock %}
+
+{% block content %}
+    {% if errors %}
+        {% for error in errors %}
+            <div id='error'>
+                Error: {{ error }}
+            </div>
+        {% endfor %}
+    {% endif %}
+
+    {% if messages %}
+        {% for message in messages %}
+            <div id='message'>
+                Message: {{ message }}
+            </div>
+        {% endfor %}
+    {% endif %}
+    <form action="" method="get" enctype="multipart/form-data">
+        <div id="link">
+            <table>
+                <tr><th><label for="id_link">Lib.ru link:</label></th><td><input name="link" id="id_link" /></td></tr>
+            </table>
+        </div>
+        <div id="submit">
+            <input type="submit" value="Get book"/>
+        </div>
+    </form>
+{% endblock %}

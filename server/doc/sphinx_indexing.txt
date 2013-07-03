@@ -1,0 +1,36 @@
+HOW TO USE sphinx indexer
+--------------------------------------------------------------------------------------
+INITIAL:
+
+    1) Make sphinx.conf file
+
+    * it should be done if sphinx.conf is not generated yet, or models were changing
+
+    to generate, run script: server/generate_spinx_conf.py
+    it creates spec/sphinx.conf file
+
+
+
+    2) Indexing database by sphinx using sphinx.conf
+
+    by that command:
+
+    ~/sphinx/bin/indexer --all --config ~/webapps/ebook_service/service/server/spec/sphinx.conf
+    
+    3) Use it!
+    
+    --------------------------------------------------------------------------------------
+REFRESHING:
+
+    1) Reindexing database by sphinx using sphinx.conf
+
+    by that command:
+
+    ~/sphinx/bin/indexer --all --config ~/webapps/ebook_service/service/server/spec/sphinx.conf --rotate
+
+
+STARTING SPHINX DAEMON
+
+~/sphinx/bin/searchd --config ~/webapps/ebook_service/service/server/spec/sphinx.conf
+
+

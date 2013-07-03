@@ -1,0 +1,2 @@
+Для установки нужно прописать в крон ./checkfiles.py <MEDIA_ROOT>/downloads каждые 30 минут.
+Установить wvWare, wvHtml.xml в папку ~/vw

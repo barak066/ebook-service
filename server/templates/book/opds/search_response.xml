@@ -1,0 +1,36 @@
+{% include 'book/opds/header.xml' %}
+{% load i18n %}
+    <link href="search.atom?" rel="alternate"></link>
+
+    {% if next %}    
+        {% include 'book/opds/self_next_links.xml' %}
+    {% endif %}
+
+    
+    <title>{% trans "Search results for" %}:
+    {% if query %}
+        {% trans "Query" %} "{{ query }}";
+    {% endif %}
+    {% if title.tit %}
+        {% trans "Title" %} "{{ title.tit }}";
+    {% endif %} 
+    {% if title.author %}
+        {% trans "Author" %} "{{ title.author }}";
+    {% endif %}
+    {% if title.lang %}
+        {% trans "Language" %} "{{ title.lang }}";
+    {% endif %}
+    {% if title.tag %}
+        {% trans "Tag" %} "{{ title.tag }}";
+    {% endif %}
+    </title>
+    
+    <opensearch:totalResults> {{ total }} </opensearch:totalResults>
+    <opensearch:itemsPerPage> {{ items_per_page }} </opensearch:itemsPerPage>
+
+    {% for book in books %}
+    <entry>
+        {% include 'book/opds/book_description.xml' %}
+    </entry>
+    {% endfor %}
+</feed>

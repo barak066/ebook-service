@@ -1,0 +1,12 @@
+TRUNCATE `book_annotation`;
+TRUNCATE `book_author`;
+TRUNCATE `book_authoralias`;
+TRUNCATE `book_author_alias`;
+TRUNCATE `book_author_tag`;
+TRUNCATE `book_book`;
+TRUNCATE `book_bookfile`;
+TRUNCATE `book_book_author`;
+TRUNCATE `book_book_book_file`;
+TRUNCATE `book_book_series`;
+TRUNCATE `book_book_tag`;
+TRUNCATE `book_tag`;

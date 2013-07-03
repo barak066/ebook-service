@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- you can search by author or by title of book,
+but NOT by author and title of book... yet.
+All results will be sorted by relevant-->
+<search>
+    
+    <!-- you'll get the list of result, with length 
+    equals value in the next tag -->
+    <result_length> </result_length>
+
+    <!-- search using soundex algorithm
+    you'll get the list of authors -->
+    <author>
+        <!--type> </type-->
+        <query> </query>
+    </author>
+
+    <!-- search by title of book -->
+    <book_title>
+
+        <!-- if you send the authors id, 
+        then you'll get the list of books, 
+        wich were written by these authors  -->
+        <authors_id>
+            <author_id> </author_id>
+            <author_id> </author_id>
+        </authors_id>
+
+        <!--type> </type-->
+        <query> </query>
+    </book_title>
+
+</search>

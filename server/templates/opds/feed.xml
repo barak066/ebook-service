@@ -1,0 +1,14 @@
+{% extends "opds/base.xml" %}
+{% block params %}
+    <id>feed.self_link</id>
+    <link href="{{feed.self_link}}" rel="self"/>
+    <title>{{feed.title}}</title>
+    <icon>http://service.ebooksearch.webactional.com/smedia/pic/favicon.ico</icon>
+    <updated></updated>
+{% endblock %}
+
+{% block entries %}
+{% for entry in feed.entries %}
+{% include "opds/entry.xml" %}
+{% endfor %}
+{% endblock %}

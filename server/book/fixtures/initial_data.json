@@ -1,0 +1,4736 @@
+[
+  {
+    "pk": 1, 
+    "model": "book.language", 
+    "fields": {
+      "short": "?", 
+      "full_national": "unknown", 
+      "full": "unknown"
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "book.language", 
+    "fields": {
+      "short": "aa", 
+      "full_national": "", 
+      "full": "Afar"
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "book.language", 
+    "fields": {
+      "short": "ab", 
+      "full_national": "", 
+      "full": "Abkhazian"
+    }
+  }, 
+  {
+    "pk": 4, 
+    "model": "book.language", 
+    "fields": {
+      "short": "ae", 
+      "full_national": "", 
+      "full": "Avestan"
+    }
+  }, 
+  {
+    "pk": 5, 
+    "model": "book.language", 
+    "fields": {
+      "short": "af", 
+      "full_national": "", 
+      "full": "Afrikaans"
+    }
+  }, 
+  {
+    "pk": 6, 
+    "model": "book.language", 
+    "fields": {
+      "short": "ak", 
+      "full_national": "", 
+      "full": "Akan"
+    }
+  }, 
+  {
+    "pk": 7, 
+    "model": "book.language", 
+    "fields": {
+      "short": "am", 
+      "full_national": "", 
+      "full": "Amharic"
+    }
+  }, 
+  {
+    "pk": 8, 
+    "model": "book.language", 
+    "fields": {
+      "short": "an", 
+      "full_national": "", 
+      "full": "Aragonese"
+    }
+  }, 
+  {
+    "pk": 9, 
+    "model": "book.language", 
+    "fields": {
+      "short": "ar", 
+      "full_national": "", 
+      "full": "Arabic"
+    }
+  }, 
+  {
+    "pk": 10, 
+    "model": "book.language", 
+    "fields": {
+      "short": "as", 
+      "full_national": "", 
+      "full": "Assamese"
+    }
+  }, 
+  {
+    "pk": 11, 
+    "model": "book.language", 
+    "fields": {
+      "short": "av", 
+      "full_national": "", 
+      "full": "Avaric"
+    }
+  }, 
+  {
+    "pk": 12, 
+    "model": "book.language", 
+    "fields": {
+      "short": "ay", 
+      "full_national": "", 
+      "full": "Aymara"
+    }
+  }, 
+  {
+    "pk": 13, 
+    "model": "book.language", 
+    "fields": {
+      "short": "az", 
+      "full_national": "", 
+      "full": "Azerbaijani"
+    }
+  }, 
+  {
+    "pk": 14, 
+    "model": "book.language", 
+    "fields": {
+      "short": "ba", 
+      "full_national": "", 
+      "full": "Bashkir"
+    }
+  }, 
+  {
+    "pk": 15, 
+    "model": "book.language", 
+    "fields": {
+      "short": "be", 
+      "full_national": "", 
+      "full": "Belarusian"
+    }
+  }, 
+  {
+    "pk": 16, 
+    "model": "book.language", 
+    "fields": {
+      "short": "bg", 
+      "full_national": "", 
+      "full": "Bulgarian"
+    }
+  }, 
+  {
+    "pk": 17, 
+    "model": "book.language", 
+    "fields": {
+      "short": "bh", 
+      "full_national": "", 
+      "full": "Bihari"
+    }
+  }, 
+  {
+    "pk": 18, 
+    "model": "book.language", 
+    "fields": {
+      "short": "bi", 
+      "full_national": "", 
+      "full": "Bislama"
+    }
+  }, 
+  {
+    "pk": 19, 
+    "model": "book.language", 
+    "fields": {
+      "short": "bm", 
+      "full_national": "", 
+      "full": "Bambara"
+    }
+  }, 
+  {
+    "pk": 20, 
+    "model": "book.language", 
+    "fields": {
+      "short": "bn", 
+      "full_national": "", 
+      "full": "Bengali"
+    }
+  }, 
+  {
+    "pk": 21, 
+    "model": "book.language", 
+    "fields": {
+      "short": "bo", 
+      "full_national": "", 
+      "full": "Tibetan"
+    }
+  }, 
+  {
+    "pk": 22, 
+    "model": "book.language", 
+    "fields": {
+      "short": "br", 
+      "full_national": "", 
+      "full": "Breton"
+    }
+  }, 
+  {
+    "pk": 23, 
+    "model": "book.language", 
+    "fields": {
+      "short": "bs", 
+      "full_national": "", 
+      "full": "Bosnian"
+    }
+  }, 
+  {
+    "pk": 24, 
+    "model": "book.language", 
+    "fields": {
+      "short": "ca", 
+      "full_national": "", 
+      "full": "Catalan, Valencian"
+    }
+  }, 
+  {
+    "pk": 25, 
+    "model": "book.language", 
+    "fields": {
+      "short": "ce", 
+      "full_national": "", 
+      "full": "Chechen"
+    }
+  }, 
+  {
+    "pk": 26, 
+    "model": "book.language", 
+    "fields": {
+      "short": "ch", 
+      "full_national": "", 
+      "full": "Chamorro"
+    }
+  }, 
+  {
+    "pk": 27, 
+    "model": "book.language", 
+    "fields": {
+      "short": "co", 
+      "full_national": "", 
+      "full": "Corsican"
+    }
+  }, 
+  {
+    "pk": 28, 
+    "model": "book.language", 
+    "fields": {
+      "short": "cr", 
+      "full_national": "", 
+      "full": "Cree"
+    }
+  }, 
+  {
+    "pk": 29, 
+    "model": "book.language", 
+    "fields": {
+      "short": "cs", 
+      "full_national": "", 
+      "full": "Czech"
+    }
+  }, 
+  {
+    "pk": 30, 
+    "model": "book.language", 
+    "fields": {
+      "short": "cu", 
+      "full_national": "", 
+      "full": "Church Slavic, Old Slavonic, Church Slavonic, Old Bulgarian, Old"
+    }
+  }, 
+  {
+    "pk": 31, 
+    "model": "book.language", 
+    "fields": {
+      "short": "cv", 
+      "full_national": "", 
+      "full": "Chuvash"
+    }
+  }, 
+  {
+    "pk": 32, 
+    "model": "book.language", 
+    "fields": {
+      "short": "cy", 
+      "full_national": "", 
+      "full": "Welsh"
+    }
+  }, 
+  {
+    "pk": 33, 
+    "model": "book.language", 
+    "fields": {
+      "short": "da", 
+      "full_national": "", 
+      "full": "Danish"
+    }
+  }, 
+  {
+    "pk": 34, 
+    "model": "book.language", 
+    "fields": {
+      "short": "de", 
+      "full_national": "", 
+      "full": "German"
+    }
+  }, 
+  {
+    "pk": 35, 
+    "model": "book.language", 
+    "fields": {
+      "short": "dv", 
+      "full_national": "", 
+      "full": "Divehi, Dhivehi, Maldivian"
+    }
+  }, 
+  {
+    "pk": 36, 
+    "model": "book.language", 
+    "fields": {
+      "short": "dz", 
+      "full_national": "", 
+      "full": "Dzongkha"
+    }
+  }, 
+  {
+    "pk": 37, 
+    "model": "book.language", 
+    "fields": {
+      "short": "ee", 
+      "full_national": "", 
+      "full": "Ewe"
+    }
+  }, 
+  {
+    "pk": 38, 
+    "model": "book.language", 
+    "fields": {
+      "short": "el", 
+      "full_national": "", 
+      "full": "Modern Greek"
+    }
+  }, 
+  {
+    "pk": 39, 
+    "model": "book.language", 
+    "fields": {
+      "short": "en", 
+      "full_national": "", 
+      "full": "English"
+    }
+  }, 
+  {
+    "pk": 40, 
+    "model": "book.language", 
+    "fields": {
+      "short": "eo", 
+      "full_national": "", 
+      "full": "Esperanto"
+    }
+  }, 
+  {
+    "pk": 41, 
+    "model": "book.language", 
+    "fields": {
+      "short": "es", 
+      "full_national": "", 
+      "full": "Spanish, Castilian"
+    }
+  }, 
+  {
+    "pk": 42, 
+    "model": "book.language", 
+    "fields": {
+      "short": "et", 
+      "full_national": "", 
+      "full": "Estonian"
+    }
+  }, 
+  {
+    "pk": 43, 
+    "model": "book.language", 
+    "fields": {
+      "short": "eu", 
+      "full_national": "", 
+      "full": "Basque"
+    }
+  }, 
+  {
+    "pk": 44, 
+    "model": "book.language", 
+    "fields": {
+      "short": "fa", 
+      "full_national": "", 
+      "full": "Persian"
+    }
+  }, 
+  {
+    "pk": 45, 
+    "model": "book.language", 
+    "fields": {
+      "short": "ff", 
+      "full_national": "", 
+      "full": "Fulah"
+    }
+  }, 
+  {
+    "pk": 46, 
+    "model": "book.language", 
+    "fields": {
+      "short": "fi", 
+      "full_national": "", 
+      "full": "Finnish"
+    }
+  }, 
+  {
+    "pk": 47, 
+    "model": "book.language", 
+    "fields": {
+      "short": "fj", 
+      "full_national": "", 
+      "full": "Fijian"
+    }
+  }, 
+  {
+    "pk": 48, 
+    "model": "book.language", 
+    "fields": {
+      "short": "fo", 
+      "full_national": "", 
+      "full": "Faroese"
+    }
+  }, 
+  {
+    "pk": 49, 
+    "model": "book.language", 
+    "fields": {
+      "short": "fr", 
+      "full_national": "", 
+      "full": "French"
+    }
+  }, 
+  {
+    "pk": 50, 
+    "model": "book.language", 
+    "fields": {
+      "short": "fy", 
+      "full_national": "", 
+      "full": "Western Frisian"
+    }
+  }, 
+  {
+    "pk": 51, 
+    "model": "book.language", 
+    "fields": {
+      "short": "ga", 
+      "full_national": "", 
+      "full": "Irish"
+    }
+  }, 
+  {
+    "pk": 52, 
+    "model": "book.language", 
+    "fields": {
+      "short": "gd", 
+      "full_national": "", 
+      "full": "Gaelic, Scottish Gaelic"
+    }
+  }, 
+  {
+    "pk": 53, 
+    "model": "book.language", 
+    "fields": {
+      "short": "gl", 
+      "full_national": "", 
+      "full": "Galician"
+    }
+  }, 
+  {
+    "pk": 54, 
+    "model": "book.language", 
+    "fields": {
+      "short": "gn", 
+      "full_national": "", 
+      "full": "Guarani"
+    }
+  }, 
+  {
+    "pk": 55, 
+    "model": "book.language", 
+    "fields": {
+      "short": "gu", 
+      "full_national": "", 
+      "full": "Gujarati"
+    }
+  }, 
+  {
+    "pk": 56, 
+    "model": "book.language", 
+    "fields": {
+      "short": "gv", 
+      "full_national": "", 
+      "full": "Manx"
+    }
+  }, 
+  {
+    "pk": 57, 
+    "model": "book.language", 
+    "fields": {
+      "short": "ha", 
+      "full_national": "", 
+      "full": "Hausa"
+    }
+  }, 
+  {
+    "pk": 58, 
+    "model": "book.language", 
+    "fields": {
+      "short": "he", 
+      "full_national": "", 
+      "full": "Modern Hebrew"
+    }
+  }, 
+  {
+    "pk": 59, 
+    "model": "book.language", 
+    "fields": {
+      "short": "hi", 
+      "full_national": "", 
+      "full": "Hindi"
+    }
+  }, 
+  {
+    "pk": 60, 
+    "model": "book.language", 
+    "fields": {
+      "short": "ho", 
+      "full_national": "", 
+      "full": "Hiri Motu"
+    }
+  }, 
+  {
+    "pk": 61, 
+    "model": "book.language", 
+    "fields": {
+      "short": "hr", 
+      "full_national": "", 
+      "full": "Croatian"
+    }
+  }, 
+  {
+    "pk": 62, 
+    "model": "book.language", 
+    "fields": {
+      "short": "ht", 
+      "full_national": "", 
+      "full": "Haitian, Haitian Creole"
+    }
+  }, 
+  {
+    "pk": 63, 
+    "model": "book.language", 
+    "fields": {
+      "short": "hu", 
+      "full_national": "", 
+      "full": "Hungarian"
+    }
+  }, 
+  {
+    "pk": 64, 
+    "model": "book.language", 
+    "fields": {
+      "short": "hy", 
+      "full_national": "", 
+      "full": "Armenian"
+    }
+  }, 
+  {
+    "pk": 65, 
+    "model": "book.language", 
+    "fields": {
+      "short": "hz", 
+      "full_national": "", 
+      "full": "Herero"
+    }
+  }, 
+  {
+    "pk": 66, 
+    "model": "book.language", 
+    "fields": {
+      "short": "ia", 
+      "full_national": "", 
+      "full": "Interlingua (International Auxiliary Language Association)"
+    }
+  }, 
+  {
+    "pk": 67, 
+    "model": "book.language", 
+    "fields": {
+      "short": "id", 
+      "full_national": "", 
+      "full": "Indonesian"
+    }
+  }, 
+  {
+    "pk": 68, 
+    "model": "book.language", 
+    "fields": {
+      "short": "ie", 
+      "full_national": "", 
+      "full": "Interlingue, Occidental"
+    }
+  }, 
+  {
+    "pk": 69, 
+    "model": "book.language", 
+    "fields": {
+      "short": "ig", 
+      "full_national": "", 
+      "full": "Igbo"
+    }
+  }, 
+  {
+    "pk": 70, 
+    "model": "book.language", 
+    "fields": {
+      "short": "ii", 
+      "full_national": "", 
+      "full": "Sichuan Yi, Nuosu"
+    }
+  }, 
+  {
+    "pk": 71, 
+    "model": "book.language", 
+    "fields": {
+      "short": "ik", 
+      "full_national": "", 
+      "full": "Inupiaq"
+    }
+  }, 
+  {
+    "pk": 72, 
+    "model": "book.language", 
+    "fields": {
+      "short": "io", 
+      "full_national": "", 
+      "full": "Ido"
+    }
+  }, 
+  {
+    "pk": 73, 
+    "model": "book.language", 
+    "fields": {
+      "short": "is", 
+      "full_national": "", 
+      "full": "Icelandic"
+    }
+  }, 
+  {
+    "pk": 74, 
+    "model": "book.language", 
+    "fields": {
+      "short": "it", 
+      "full_national": "", 
+      "full": "Italian"
+    }
+  }, 
+  {
+    "pk": 75, 
+    "model": "book.language", 
+    "fields": {
+      "short": "iu", 
+      "full_national": "", 
+      "full": "Inuktitut"
+    }
+  }, 
+  {
+    "pk": 76, 
+    "model": "book.language", 
+    "fields": {
+      "short": "ja", 
+      "full_national": "", 
+      "full": "Japanese"
+    }
+  }, 
+  {
+    "pk": 77, 
+    "model": "book.language", 
+    "fields": {
+      "short": "jv", 
+      "full_national": "", 
+      "full": "Javanese"
+    }
+  }, 
+  {
+    "pk": 78, 
+    "model": "book.language", 
+    "fields": {
+      "short": "ka", 
+      "full_national": "", 
+      "full": "Georgian"
+    }
+  }, 
+  {
+    "pk": 79, 
+    "model": "book.language", 
+    "fields": {
+      "short": "kg", 
+      "full_national": "", 
+      "full": "Kongo"
+    }
+  }, 
+  {
+    "pk": 80, 
+    "model": "book.language", 
+    "fields": {
+      "short": "ki", 
+      "full_national": "", 
+      "full": "Kikuyu, Gikuyu"
+    }
+  }, 
+  {
+    "pk": 81, 
+    "model": "book.language", 
+    "fields": {
+      "short": "kj", 
+      "full_national": "", 
+      "full": "Kwanyama, Kuanyama"
+    }
+  }, 
+  {
+    "pk": 82, 
+    "model": "book.language", 
+    "fields": {
+      "short": "kk", 
+      "full_national": "", 
+      "full": "Kazakh"
+    }
+  }, 
+  {
+    "pk": 83, 
+    "model": "book.language", 
+    "fields": {
+      "short": "kl", 
+      "full_national": "", 
+      "full": "Kalaallisut, Greenlandic"
+    }
+  }, 
+  {
+    "pk": 84, 
+    "model": "book.language", 
+    "fields": {
+      "short": "km", 
+      "full_national": "", 
+      "full": "Central Khmer"
+    }
+  }, 
+  {
+    "pk": 85, 
+    "model": "book.language", 
+    "fields": {
+      "short": "kn", 
+      "full_national": "", 
+      "full": "Kannada"
+    }
+  }, 
+  {
+    "pk": 86, 
+    "model": "book.language", 
+    "fields": {
+      "short": "ko", 
+      "full_national": "", 
+      "full": "Korean"
+    }
+  }, 
+  {
+    "pk": 87, 
+    "model": "book.language", 
+    "fields": {
+      "short": "kr", 
+      "full_national": "", 
+      "full": "Kanuri"
+    }
+  }, 
+  {
+    "pk": 88, 
+    "model": "book.language", 
+    "fields": {
+      "short": "ks", 
+      "full_national": "", 
+      "full": "Kashmiri"
+    }
+  }, 
+  {
+    "pk": 89, 
+    "model": "book.language", 
+    "fields": {
+      "short": "ku", 
+      "full_national": "", 
+      "full": "Kurdish"
+    }
+  }, 
+  {
+    "pk": 90, 
+    "model": "book.language", 
+    "fields": {
+      "short": "kv", 
+      "full_national": "", 
+      "full": "Komi"
+    }
+  }, 
+  {
+    "pk": 91, 
+    "model": "book.language", 
+    "fields": {
+      "short": "kw", 
+      "full_national": "", 
+      "full": "Cornish"
+    }
+  }, 
+  {
+    "pk": 92, 
+    "model": "book.language", 
+    "fields": {
+      "short": "ky", 
+      "full_national": "", 
+      "full": "Kirghiz, Kyrgyz"
+    }
+  }, 
+  {
+    "pk": 93, 
+    "model": "book.language", 
+    "fields": {
+      "short": "la", 
+      "full_national": "", 
+      "full": "Latin"
+    }
+  }, 
+  {
+    "pk": 94, 
+    "model": "book.language", 
+    "fields": {
+      "short": "lb", 
+      "full_national": "", 
+      "full": "Luxembourgish, Letzeburgesch"
+    }
+  }, 
+  {
+    "pk": 95, 
+    "model": "book.language", 
+    "fields": {
+      "short": "lg", 
+      "full_national": "", 
+      "full": "Ganda"
+    }
+  }, 
+  {
+    "pk": 96, 
+    "model": "book.language", 
+    "fields": {
+      "short": "li", 
+      "full_national": "", 
+      "full": "Limburgish, Limburgan, Limburger"
+    }
+  }, 
+  {
+    "pk": 97, 
+    "model": "book.language", 
+    "fields": {
+      "short": "ln", 
+      "full_national": "", 
+      "full": "Lingala"
+    }
+  }, 
+  {
+    "pk": 98, 
+    "model": "book.language", 
+    "fields": {
+      "short": "lo", 
+      "full_national": "", 
+      "full": "Lao"
+    }
+  }, 
+  {
+    "pk": 99, 
+    "model": "book.language", 
+    "fields": {
+      "short": "lt", 
+      "full_national": "", 
+      "full": "Lithuanian"
+    }
+  }, 
+  {
+    "pk": 100, 
+    "model": "book.language", 
+    "fields": {
+      "short": "lu", 
+      "full_national": "", 
+      "full": "Luba-Katanga"
+    }
+  }, 
+  {
+    "pk": 101, 
+    "model": "book.language", 
+    "fields": {
+      "short": "lv", 
+      "full_national": "", 
+      "full": "Latvian"
+    }
+  }, 
+  {
+    "pk": 102, 
+    "model": "book.language", 
+    "fields": {
+      "short": "mg", 
+      "full_national": "", 
+      "full": "Malagasy"
+    }
+  }, 
+  {
+    "pk": 103, 
+    "model": "book.language", 
+    "fields": {
+      "short": "mh", 
+      "full_national": "", 
+      "full": "Marshallese"
+    }
+  }, 
+  {
+    "pk": 104, 
+    "model": "book.language", 
+    "fields": {
+      "short": "mi", 
+      "full_national": "", 
+      "full": "Maori"
+    }
+  }, 
+  {
+    "pk": 105, 
+    "model": "book.language", 
+    "fields": {
+      "short": "mk", 
+      "full_national": "", 
+      "full": "Macedonian"
+    }
+  }, 
+  {
+    "pk": 106, 
+    "model": "book.language", 
+    "fields": {
+      "short": "ml", 
+      "full_national": "", 
+      "full": "Malayalam"
+    }
+  }, 
+  {
+    "pk": 107, 
+    "model": "book.language", 
+    "fields": {
+      "short": "mn", 
+      "full_national": "", 
+      "full": "Mongolian"
+    }
+  }, 
+  {
+    "pk": 108, 
+    "model": "book.language", 
+    "fields": {
+      "short": "mr", 
+      "full_national": "", 
+      "full": "Marathi"
+    }
+  }, 
+  {
+    "pk": 109, 
+    "model": "book.language", 
+    "fields": {
+      "short": "ms", 
+      "full_national": "", 
+      "full": "Malay"
+    }
+  }, 
+  {
+    "pk": 110, 
+    "model": "book.language", 
+    "fields": {
+      "short": "mt", 
+      "full_national": "", 
+      "full": "Maltese"
+    }
+  }, 
+  {
+    "pk": 111, 
+    "model": "book.language", 
+    "fields": {
+      "short": "my", 
+      "full_national": "", 
+      "full": "Burmese"
+    }
+  }, 
+  {
+    "pk": 112, 
+    "model": "book.language", 
+    "fields": {
+      "short": "na", 
+      "full_national": "", 
+      "full": "Nauru"
+    }
+  }, 
+  {
+    "pk": 113, 
+    "model": "book.language", 
+    "fields": {
+      "short": "nb", 
+      "full_national": "", 
+      "full": "Norwegian Bokmal"
+    }
+  }, 
+  {
+    "pk": 114, 
+    "model": "book.language", 
+    "fields": {
+      "short": "nd", 
+      "full_national": "", 
+      "full": "North Ndebele"
+    }
+  }, 
+  {
+    "pk": 115, 
+    "model": "book.language", 
+    "fields": {
+      "short": "ne", 
+      "full_national": "", 
+      "full": "Nepali"
+    }
+  }, 
+  {
+    "pk": 116, 
+    "model": "book.language", 
+    "fields": {
+      "short": "ng", 
+      "full_national": "", 
+      "full": "Ndonga"
+    }
+  }, 
+  {
+    "pk": 117, 
+    "model": "book.language", 
+    "fields": {
+      "short": "nl", 
+      "full_national": "", 
+      "full": "Dutch, Flemish"
+    }
+  }, 
+  {
+    "pk": 118, 
+    "model": "book.language", 
+    "fields": {
+      "short": "nn", 
+      "full_national": "", 
+      "full": "Norwegian Nynorsk"
+    }
+  }, 
+  {
+    "pk": 119, 
+    "model": "book.language", 
+    "fields": {
+      "short": "no", 
+      "full_national": "", 
+      "full": "Norwegian"
+    }
+  }, 
+  {
+    "pk": 120, 
+    "model": "book.language", 
+    "fields": {
+      "short": "nr", 
+      "full_national": "", 
+      "full": "South Ndebele"
+    }
+  }, 
+  {
+    "pk": 121, 
+    "model": "book.language", 
+    "fields": {
+      "short": "nv", 
+      "full_national": "", 
+      "full": "Navajo, Navaho"
+    }
+  }, 
+  {
+    "pk": 122, 
+    "model": "book.language", 
+    "fields": {
+      "short": "ny", 
+      "full_national": "", 
+      "full": "Chichewa, Chewa, Nyanja"
+    }
+  }, 
+  {
+    "pk": 123, 
+    "model": "book.language", 
+    "fields": {
+      "short": "oc", 
+      "full_national": "", 
+      "full": "Occitan (after 1500)"
+    }
+  }, 
+  {
+    "pk": 124, 
+    "model": "book.language", 
+    "fields": {
+      "short": "oj", 
+      "full_national": "", 
+      "full": "Ojibwa"
+    }
+  }, 
+  {
+    "pk": 125, 
+    "model": "book.language", 
+    "fields": {
+      "short": "om", 
+      "full_national": "", 
+      "full": "Oromo"
+    }
+  }, 
+  {
+    "pk": 126, 
+    "model": "book.language", 
+    "fields": {
+      "short": "or", 
+      "full_national": "", 
+      "full": "Oriya"
+    }
+  }, 
+  {
+    "pk": 127, 
+    "model": "book.language", 
+    "fields": {
+      "short": "os", 
+      "full_national": "", 
+      "full": "Ossetian, Ossetic"
+    }
+  }, 
+  {
+    "pk": 128, 
+    "model": "book.language", 
+    "fields": {
+      "short": "pa", 
+      "full_national": "", 
+      "full": "Panjabi, Punjabi"
+    }
+  }, 
+  {
+    "pk": 129, 
+    "model": "book.language", 
+    "fields": {
+      "short": "pi", 
+      "full_national": "", 
+      "full": "Pali"
+    }
+  }, 
+  {
+    "pk": 130, 
+    "model": "book.language", 
+    "fields": {
+      "short": "pl", 
+      "full_national": "", 
+      "full": "Polish"
+    }
+  }, 
+  {
+    "pk": 131, 
+    "model": "book.language", 
+    "fields": {
+      "short": "ps", 
+      "full_national": "", 
+      "full": "Pashto, Pushto"
+    }
+  }, 
+  {
+    "pk": 132, 
+    "model": "book.language", 
+    "fields": {
+      "short": "pt", 
+      "full_national": "", 
+      "full": "Portuguese"
+    }
+  }, 
+  {
+    "pk": 133, 
+    "model": "book.language", 
+    "fields": {
+      "short": "qu", 
+      "full_national": "", 
+      "full": "Quechua"
+    }
+  }, 
+  {
+    "pk": 134, 
+    "model": "book.language", 
+    "fields": {
+      "short": "rm", 
+      "full_national": "", 
+      "full": "Romansh"
+    }
+  }, 
+  {
+    "pk": 135, 
+    "model": "book.language", 
+    "fields": {
+      "short": "rn", 
+      "full_national": "", 
+      "full": "Rundi"
+    }
+  }, 
+  {
+    "pk": 136, 
+    "model": "book.language", 
+    "fields": {
+      "short": "ro", 
+      "full_national": "", 
+      "full": "Romanian, Moldavian, Moldovan"
+    }
+  }, 
+  {
+    "pk": 137, 
+    "model": "book.language", 
+    "fields": {
+      "short": "ru", 
+      "full_national": "", 
+      "full": "Russian"
+    }
+  }, 
+  {
+    "pk": 138, 
+    "model": "book.language", 
+    "fields": {
+      "short": "rw", 
+      "full_national": "", 
+      "full": "Kinyarwanda"
+    }
+  }, 
+  {
+    "pk": 139, 
+    "model": "book.language", 
+    "fields": {
+      "short": "sa", 
+      "full_national": "", 
+      "full": "Sanskrit"
+    }
+  }, 
+  {
+    "pk": 140, 
+    "model": "book.language", 
+    "fields": {
+      "short": "sc", 
+      "full_national": "", 
+      "full": "Sardinian"
+    }
+  }, 
+  {
+    "pk": 141, 
+    "model": "book.language", 
+    "fields": {
+      "short": "sd", 
+      "full_national": "", 
+      "full": "Sindhi"
+    }
+  }, 
+  {
+    "pk": 142, 
+    "model": "book.language", 
+    "fields": {
+      "short": "se", 
+      "full_national": "", 
+      "full": "Northern Sami"
+    }
+  }, 
+  {
+    "pk": 143, 
+    "model": "book.language", 
+    "fields": {
+      "short": "sg", 
+      "full_national": "", 
+      "full": "Sango"
+    }
+  }, 
+  {
+    "pk": 144, 
+    "model": "book.language", 
+    "fields": {
+      "short": "si", 
+      "full_national": "", 
+      "full": "Sinhala, Sinhalese"
+    }
+  }, 
+  {
+    "pk": 145, 
+    "model": "book.language", 
+    "fields": {
+      "short": "sk", 
+      "full_national": "", 
+      "full": "Slovak"
+    }
+  }, 
+  {
+    "pk": 146, 
+    "model": "book.language", 
+    "fields": {
+      "short": "sl", 
+      "full_national": "", 
+      "full": "Slovene"
+    }
+  }, 
+  {
+    "pk": 147, 
+    "model": "book.language", 
+    "fields": {
+      "short": "sm", 
+      "full_national": "", 
+      "full": "Samoan"
+    }
+  }, 
+  {
+    "pk": 148, 
+    "model": "book.language", 
+    "fields": {
+      "short": "sn", 
+      "full_national": "", 
+      "full": "Shona"
+    }
+  }, 
+  {
+    "pk": 149, 
+    "model": "book.language", 
+    "fields": {
+      "short": "so", 
+      "full_national": "", 
+      "full": "Somali"
+    }
+  }, 
+  {
+    "pk": 150, 
+    "model": "book.language", 
+    "fields": {
+      "short": "sq", 
+      "full_national": "", 
+      "full": "Albanian"
+    }
+  }, 
+  {
+    "pk": 151, 
+    "model": "book.language", 
+    "fields": {
+      "short": "sr", 
+      "full_national": "", 
+      "full": "Serbian"
+    }
+  }, 
+  {
+    "pk": 152, 
+    "model": "book.language", 
+    "fields": {
+      "short": "ss", 
+      "full_national": "", 
+      "full": "Swati"
+    }
+  }, 
+  {
+    "pk": 153, 
+    "model": "book.language", 
+    "fields": {
+      "short": "st", 
+      "full_national": "", 
+      "full": "Southern Sotho"
+    }
+  }, 
+  {
+    "pk": 154, 
+    "model": "book.language", 
+    "fields": {
+      "short": "su", 
+      "full_national": "", 
+      "full": "Sundanese"
+    }
+  }, 
+  {
+    "pk": 155, 
+    "model": "book.language", 
+    "fields": {
+      "short": "sv", 
+      "full_national": "", 
+      "full": "Swedish"
+    }
+  }, 
+  {
+    "pk": 156, 
+    "model": "book.language", 
+    "fields": {
+      "short": "sw", 
+      "full_national": "", 
+      "full": "Swahili"
+    }
+  }, 
+  {
+    "pk": 157, 
+    "model": "book.language", 
+    "fields": {
+      "short": "ta", 
+      "full_national": "", 
+      "full": "Tamil"
+    }
+  }, 
+  {
+    "pk": 158, 
+    "model": "book.language", 
+    "fields": {
+      "short": "te", 
+      "full_national": "", 
+      "full": "Telugu"
+    }
+  }, 
+  {
+    "pk": 159, 
+    "model": "book.language", 
+    "fields": {
+      "short": "tg", 
+      "full_national": "", 
+      "full": "Tajik"
+    }
+  }, 
+  {
+    "pk": 160, 
+    "model": "book.language", 
+    "fields": {
+      "short": "th", 
+      "full_national": "", 
+      "full": "Thai"
+    }
+  }, 
+  {
+    "pk": 161, 
+    "model": "book.language", 
+    "fields": {
+      "short": "ti", 
+      "full_national": "", 
+      "full": "Tigrinya"
+    }
+  }, 
+  {
+    "pk": 162, 
+    "model": "book.language", 
+    "fields": {
+      "short": "tk", 
+      "full_national": "", 
+      "full": "Turkmen"
+    }
+  }, 
+  {
+    "pk": 163, 
+    "model": "book.language", 
+    "fields": {
+      "short": "tl", 
+      "full_national": "", 
+      "full": "Tagalog"
+    }
+  }, 
+  {
+    "pk": 164, 
+    "model": "book.language", 
+    "fields": {
+      "short": "tn", 
+      "full_national": "", 
+      "full": "Tswana"
+    }
+  }, 
+  {
+    "pk": 165, 
+    "model": "book.language", 
+    "fields": {
+      "short": "to", 
+      "full_national": "", 
+      "full": "Tonga (Tonga Islands)"
+    }
+  }, 
+  {
+    "pk": 166, 
+    "model": "book.language", 
+    "fields": {
+      "short": "tr", 
+      "full_national": "", 
+      "full": "Turkish"
+    }
+  }, 
+  {
+    "pk": 167, 
+    "model": "book.language", 
+    "fields": {
+      "short": "ts", 
+      "full_national": "", 
+      "full": "Tsonga"
+    }
+  }, 
+  {
+    "pk": 168, 
+    "model": "book.language", 
+    "fields": {
+      "short": "tt", 
+      "full_national": "", 
+      "full": "Tatar"
+    }
+  }, 
+  {
+    "pk": 169, 
+    "model": "book.language", 
+    "fields": {
+      "short": "tw", 
+      "full_national": "", 
+      "full": "Twi"
+    }
+  }, 
+  {
+    "pk": 170, 
+    "model": "book.language", 
+    "fields": {
+      "short": "ty", 
+      "full_national": "", 
+      "full": "Tahitian"
+    }
+  }, 
+  {
+    "pk": 171, 
+    "model": "book.language", 
+    "fields": {
+      "short": "ug", 
+      "full_national": "", 
+      "full": "Uighur, Uyghur"
+    }
+  }, 
+  {
+    "pk": 172, 
+    "model": "book.language", 
+    "fields": {
+      "short": "uk", 
+      "full_national": "", 
+      "full": "Ukrainian"
+    }
+  }, 
+  {
+    "pk": 173, 
+    "model": "book.language", 
+    "fields": {
+      "short": "ur", 
+      "full_national": "", 
+      "full": "Urdu"
+    }
+  }, 
+  {
+    "pk": 174, 
+    "model": "book.language", 
+    "fields": {
+      "short": "uz", 
+      "full_national": "", 
+      "full": "Uzbek"
+    }
+  }, 
+  {
+    "pk": 175, 
+    "model": "book.language", 
+    "fields": {
+      "short": "ve", 
+      "full_national": "", 
+      "full": "Venda"
+    }
+  }, 
+  {
+    "pk": 176, 
+    "model": "book.language", 
+    "fields": {
+      "short": "vi", 
+      "full_national": "", 
+      "full": "Vietnamese"
+    }
+  }, 
+  {
+    "pk": 177, 
+    "model": "book.language", 
+    "fields": {
+      "short": "vo", 
+      "full_national": "", 
+      "full": "Volapuk"
+    }
+  }, 
+  {
+    "pk": 178, 
+    "model": "book.language", 
+    "fields": {
+      "short": "wa", 
+      "full_national": "", 
+      "full": "Walloon"
+    }
+  }, 
+  {
+    "pk": 179, 
+    "model": "book.language", 
+    "fields": {
+      "short": "wo", 
+      "full_national": "", 
+      "full": "Wolof"
+    }
+  }, 
+  {
+    "pk": 180, 
+    "model": "book.language", 
+    "fields": {
+      "short": "xh", 
+      "full_national": "", 
+      "full": "Xhosa"
+    }
+  }, 
+  {
+    "pk": 181, 
+    "model": "book.language", 
+    "fields": {
+      "short": "yi", 
+      "full_national": "", 
+      "full": "Yiddish"
+    }
+  }, 
+  {
+    "pk": 182, 
+    "model": "book.language", 
+    "fields": {
+      "short": "yo", 
+      "full_national": "", 
+      "full": "Yoruba"
+    }
+  }, 
+  {
+    "pk": 183, 
+    "model": "book.language", 
+    "fields": {
+      "short": "za", 
+      "full_national": "", 
+      "full": "Zhuang, Chuang"
+    }
+  }, 
+  {
+    "pk": 184, 
+    "model": "book.language", 
+    "fields": {
+      "short": "zh", 
+      "full_national": "", 
+      "full": "Chinese"
+    }
+  }, 
+  {
+    "pk": 185, 
+    "model": "book.language", 
+    "fields": {
+      "short": "zu", 
+      "full_national": "", 
+      "full": "Zulu"
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 2, 
+      "name": "\u0440\u0435\u043b\u0438\u0433\u0438\u044f \u0438 \u0434\u0443\u0445\u043e\u0432\u043d\u043e\u0441\u0442\u044c", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 2, 
+      "name": "\u043f\u0440\u043e\u0437\u0430", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 2, 
+      "name": "\u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u0430\u043b\u044c\u043d\u0430\u044f \u043b\u0438\u0442\u0435\u0440\u0430\u0442\u0443\u0440\u0430", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 4, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 2, 
+      "name": "\u044e\u043c\u043e\u0440", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 5, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 2, 
+      "name": "\u0441\u043f\u0440\u0430\u0432\u043e\u0447\u043d\u0430\u044f \u043b\u0438\u0442\u0435\u0440\u0430\u0442\u0443\u0440\u0430", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 6, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 2, 
+      "name": "\u043b\u044e\u0431\u043e\u0432\u043d\u044b\u0435 \u0440\u043e\u043c\u0430\u043d\u044b", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 7, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 2, 
+      "name": "\u043a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u044b \u0438 \u0438\u043d\u0442\u0435\u0440\u043d\u0435\u0442", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 8, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 2, 
+      "name": "\u043d\u0430\u0443\u043a\u0430, \u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u0438\u0435", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 9, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 2, 
+      "name": "\u0434\u0435\u043b\u043e\u0432\u0430\u044f \u043b\u0438\u0442\u0435\u0440\u0430\u0442\u0443\u0440\u0430", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 10, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 2, 
+      "name": "\u0434\u0435\u0442\u0441\u043a\u043e\u0435", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 11, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 2, 
+      "name": "\u0441\u0442\u0430\u0440\u0438\u043d\u043d\u043e\u0435", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 12, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 2, 
+      "name": "\u0434\u0435\u0442\u0435\u043a\u0442\u0438\u0432\u044b \u0438 \u0442\u0440\u0438\u043b\u043b\u0435\u0440\u044b", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 13, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 2, 
+      "name": "\u043f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 14, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 2, 
+      "name": "\u0434\u043e\u043c \u0438 \u0441\u0435\u043c\u044c\u044f", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 15, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 2, 
+      "name": "\u043f\u043e\u044d\u0437\u0438\u044f \u0438 \u0434\u0440\u0430\u043c\u0430\u0442\u0443\u0440\u0433\u0438\u044f", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 16, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 2, 
+      "name": "\u043d\u0430\u0443\u0447\u043d\u0430\u044f \u0444\u0430\u043d\u0442\u0430\u0441\u0442\u0438\u043a\u0430 \u0438 \u0444\u044d\u043d\u0442\u0435\u0437\u0438", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 17, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u043c\u0438\u0444\u044b. \u043b\u0435\u0433\u0435\u043d\u0434\u044b. \u044d\u043f\u043e\u0441", 
+      "parent": 11
+    }
+  }, 
+  {
+    "pk": 18, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u043a\u043b\u0430\u0441\u0441\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0434\u0435\u0442\u0435\u043a\u0442\u0438\u0432", 
+      "parent": 12
+    }
+  }, 
+  {
+    "pk": 19, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0442\u0440\u0438\u043b\u043b\u0435\u0440", 
+      "parent": 12
+    }
+  }, 
+  {
+    "pk": 20, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0431\u043e\u0435\u0432\u0430\u044f \u0444\u0430\u043d\u0442\u0430\u0441\u0442\u0438\u043a\u0430", 
+      "parent": 16
+    }
+  }, 
+  {
+    "pk": 21, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u044b", 
+      "parent": 7
+    }
+  }, 
+  {
+    "pk": 22, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u044e\u043c\u043e\u0440\u0438\u0441\u0442\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0444\u0430\u043d\u0442\u0430\u0441\u0442\u0438\u043a\u0430", 
+      "parent": 16
+    }
+  }, 
+  {
+    "pk": 23, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0441\u043e\u0446\u0438\u0430\u043b\u044c\u043d\u043e-\u043f\u0441\u0438\u0445\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0444\u0430\u043d\u0442\u0430\u0441\u0442\u0438\u043a\u0430", 
+      "parent": 16
+    }
+  }, 
+  {
+    "pk": 24, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u043f\u043e\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0434\u0435\u0442\u0435\u043a\u0442\u0438\u0432", 
+      "parent": 12
+    }
+  }, 
+  {
+    "pk": 25, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u043a\u0438\u0431\u0435\u0440\u043f\u0430\u043d\u043a", 
+      "parent": 16
+    }
+  }, 
+  {
+    "pk": 26, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u043a\u0440\u0438\u0442\u0438\u043a\u0430", 
+      "parent": 3
+    }
+  }, 
+  {
+    "pk": 27, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0440\u0430\u0437\u0432\u043b\u0435\u0447\u0435\u043d\u0438\u044f", 
+      "parent": 14
+    }
+  }, 
+  {
+    "pk": 28, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0441\u0434\u0435\u043b\u0430\u0439 \u0441\u0430\u043c", 
+      "parent": 14
+    }
+  }, 
+  {
+    "pk": 29, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u044e\u043c\u043e\u0440\u0438\u0441\u0442\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u043f\u0440\u043e\u0437\u0430", 
+      "parent": 4
+    }
+  }, 
+  {
+    "pk": 30, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0438\u0441\u0442\u043e\u0440\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u043f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f", 
+      "parent": 13
+    }
+  }, 
+  {
+    "pk": 31, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0443\u0436\u0430\u0441\u044b \u0438 \u043c\u0438\u0441\u0442\u0438\u043a\u0430", 
+      "parent": 16
+    }
+  }, 
+  {
+    "pk": 32, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0441\u043e\u0432\u0435\u0442\u0441\u043a\u0430\u044f \u043a\u043b\u0430\u0441\u0441\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u043f\u0440\u043e\u0437\u0430", 
+      "parent": 2
+    }
+  }, 
+  {
+    "pk": 33, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0434\u0435\u0442\u0435\u043a\u0442\u0438\u0432\u043d\u0430\u044f \u0444\u0430\u043d\u0442\u0430\u0441\u0442\u0438\u043a\u0430", 
+      "parent": 16
+    }
+  }, 
+  {
+    "pk": 34, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u043c\u043e\u0440\u0441\u043a\u0438\u0435 \u043f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f", 
+      "parent": 13
+    }
+  }, 
+  {
+    "pk": 35, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u044d\u0440\u043e\u0442\u0438\u043a\u0430", 
+      "parent": 6
+    }
+  }, 
+  {
+    "pk": 36, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0434\u0440\u0430\u043c\u0430\u0442\u0443\u0440\u0433\u0438\u044f", 
+      "parent": 15
+    }
+  }, 
+  {
+    "pk": 37, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u044e\u043c\u043e\u0440\u0438\u0441\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u0441\u0442\u0438\u0445\u0438", 
+      "parent": 4
+    }
+  }, 
+  {
+    "pk": 38, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0431\u0430\u0437\u044b \u0434\u0430\u043d\u043d\u044b\u0445", 
+      "parent": 7
+    }
+  }, 
+  {
+    "pk": 39, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u044d\u043a\u043e\u043d\u043e\u043c\u0438\u043a\u0430", 
+      "parent": 8
+    }
+  }, 
+  {
+    "pk": 40, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0434\u0435\u0442\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0441\u044e\u0436\u0435\u0442\u043d\u044b\u0435", 
+      "parent": 10
+    }
+  }, 
+  {
+    "pk": 41, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0438\u0440\u043e\u043d\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0434\u0435\u0442\u0435\u043a\u0442\u0438\u0432", 
+      "parent": 12
+    }
+  }, 
+  {
+    "pk": 42, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u043e\u0441\u0442\u0440\u043e\u0441\u044e\u0436\u0435\u0442\u043d\u044b\u0435 \u043b\u044e\u0431\u043e\u0432\u043d\u044b\u0435 \u0440\u043e\u043c\u0430\u043d\u044b", 
+      "parent": 6
+    }
+  }, 
+  {
+    "pk": 43, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0438\u043d\u0442\u0435\u0440\u043d\u0435\u0442", 
+      "parent": 7
+    }
+  }, 
+  {
+    "pk": 44, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0441\u0430\u0434 \u0438 \u043e\u0433\u043e\u0440\u043e\u0434", 
+      "parent": 14
+    }
+  }, 
+  {
+    "pk": 45, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0434\u0435\u0442\u0441\u043a\u0438\u0435 \u0441\u0442\u0438\u0445\u0438", 
+      "parent": 10
+    }
+  }, 
+  {
+    "pk": 46, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u043f\u043e\u043b\u0438\u0446\u0435\u0439\u0441\u043a\u0438\u0439 \u0434\u0435\u0442\u0435\u043a\u0442\u0438\u0432", 
+      "parent": 12
+    }
+  }, 
+  {
+    "pk": 47, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0432\u0435\u0441\u0442\u0435\u0440\u043d", 
+      "parent": 13
+    }
+  }, 
+  {
+    "pk": 48, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0433\u0435\u0440\u043e\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0444\u0430\u043d\u0442\u0430\u0441\u0442\u0438\u043a\u0430", 
+      "parent": 16
+    }
+  }, 
+  {
+    "pk": 49, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u043c\u0430\u043d\u044c\u044f\u043a\u0438", 
+      "parent": 12
+    }
+  }, 
+  {
+    "pk": 50, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0431\u0443\u0445\u0443\u0447\u0435\u0442, \u043d\u0430\u043b\u043e\u0433\u043e\u043e\u0431\u043b\u043e\u0436\u0435\u043d\u0438\u0435, \u0430\u0443\u0434\u0438\u0442", 
+      "parent": 9
+    }
+  }, 
+  {
+    "pk": 51, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u043a\u0440\u0443\u0442\u043e\u0439 \u0434\u0435\u0442\u0435\u043a\u0442\u0438\u0432", 
+      "parent": 12
+    }
+  }, 
+  {
+    "pk": 52, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u044d\u043f\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0444\u0430\u043d\u0442\u0430\u0441\u0442\u0438\u043a\u0430", 
+      "parent": 16
+    }
+  }, 
+  {
+    "pk": 53, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0438\u0441\u0442\u043e\u0440\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0434\u0435\u0442\u0435\u043a\u0442\u0438\u0432", 
+      "parent": 12
+    }
+  }, 
+  {
+    "pk": 54, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0430\u043b\u044c\u0442\u0435\u0440\u043d\u0430\u0442\u0438\u0432\u043d\u0430\u044f \u0438\u0441\u0442\u043e\u0440\u0438\u044f", 
+      "parent": 16
+    }
+  }, 
+  {
+    "pk": 55, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u044e\u0440\u0438\u0441\u043f\u0440\u0443\u0434\u0435\u043d\u0446\u0438\u044f", 
+      "parent": 8
+    }
+  }, 
+  {
+    "pk": 56, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0441\u043e\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u044b\u0435 \u043b\u044e\u0431\u043e\u0432\u043d\u044b\u0435 \u0440\u043e\u043c\u0430\u043d\u044b", 
+      "parent": 6
+    }
+  }, 
+  {
+    "pk": 57, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0440\u0435\u043b\u0438\u0433\u0438\u043e\u0432\u0435\u0434\u0435\u043d\u0438\u0435", 
+      "parent": 8
+    }
+  }, 
+  {
+    "pk": 58, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0438\u0441\u0442\u043e\u0440\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u043b\u044e\u0431\u043e\u0432\u043d\u044b\u0435 \u0440\u043e\u043c\u0430\u043d\u044b", 
+      "parent": 6
+    }
+  }, 
+  {
+    "pk": 59, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u043f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f \u043f\u0440\u043e \u0438\u043d\u0434\u0435\u0439\u0446\u0435\u0432", 
+      "parent": 13
+    }
+  }, 
+  {
+    "pk": 60, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0434\u0435\u0442\u0441\u043a\u0438\u0435 \u043f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f", 
+      "parent": 10
+    }
+  }, 
+  {
+    "pk": 61, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u043a\u043e\u0440\u043e\u0442\u043a\u0438\u0435 \u043b\u044e\u0431\u043e\u0432\u043d\u044b\u0435 \u0440\u043e\u043c\u0430\u043d\u044b", 
+      "parent": 6
+    }
+  }, 
+  {
+    "pk": 62, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u043b\u044e\u0431\u043e\u0432\u043d\u043e-\u0444\u0430\u043d\u0442\u0430\u0441\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u0440\u043e\u043c\u0430\u043d\u044b", 
+      "parent": 6
+    }
+  }, 
+  {
+    "pk": 63, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0448\u043f\u0438\u043e\u043d\u0441\u043a\u0438\u0439 \u0434\u0435\u0442\u0435\u043a\u0442\u0438\u0432", 
+      "parent": 12
+    }
+  }, 
+  {
+    "pk": 64, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u043a\u0440\u0438\u043c\u0438\u043d\u0430\u043b\u044c\u043d\u044b\u0439 \u0434\u0435\u0442\u0435\u043a\u0442\u0438\u0432", 
+      "parent": 12
+    }
+  }, 
+  {
+    "pk": 65, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u043c\u0430\u0440\u043a\u0435\u0442\u0438\u043d\u0433, pr, \u0440\u0435\u043a\u043b\u0430\u043c\u0430", 
+      "parent": 9
+    }
+  }, 
+  {
+    "pk": 66, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0441\u043f\u043e\u0440\u0442", 
+      "parent": 14
+    }
+  }, 
+  {
+    "pk": 67, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u044d\u043d\u0446\u0438\u043a\u043b\u043e\u043f\u0435\u0434\u0438\u0438", 
+      "parent": 5
+    }
+  }, 
+  {
+    "pk": 68, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0431\u0438\u043e\u043b\u043e\u0433\u0438\u044f", 
+      "parent": 8
+    }
+  }, 
+  {
+    "pk": 69, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u043c\u0430\u0442\u0435\u043c\u0430\u0442\u0438\u043a\u0430", 
+      "parent": 8
+    }
+  }, 
+  {
+    "pk": 70, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0430\u043d\u0435\u043a\u0434\u043e\u0442\u044b", 
+      "parent": 4
+    }
+  }, 
+  {
+    "pk": 71, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0434\u0435\u0442\u0441\u043a\u0430\u044f \u043f\u0440\u043e\u0437\u0430", 
+      "parent": 10
+    }
+  }, 
+  {
+    "pk": 72, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0438\u0441\u043a\u0443\u0441\u0441\u0442\u0432\u043e \u0438 \u0434\u0438\u0437\u0430\u0439\u043d", 
+      "parent": 3
+    }
+  }, 
+  {
+    "pk": 73, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u043c\u0435\u0434\u0438\u0446\u0438\u043d\u0430", 
+      "parent": 8
+    }
+  }, 
+  {
+    "pk": 74, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0440\u0443\u0441\u0441\u043a\u0430\u044f \u043a\u043b\u0430\u0441\u0441\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u043f\u0440\u043e\u0437\u0430", 
+      "parent": 2
+    }
+  }, 
+  {
+    "pk": 75, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u043a\u043e\u043d\u0442\u0440\u043a\u0443\u043b\u044c\u0442\u0443\u0440\u0430", 
+      "parent": 2
+    }
+  }, 
+  {
+    "pk": 76, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0434\u0435\u0442\u0435\u043a\u0442\u0438\u0432", 
+      "parent": 12
+    }
+  }, 
+  {
+    "pk": 77, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u043f\u043e\u044d\u0437\u0438\u044f", 
+      "parent": 15
+    }
+  }, 
+  {
+    "pk": 78, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u043a\u043e\u0441\u043c\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0444\u0430\u043d\u0442\u0430\u0441\u0442\u0438\u043a\u0430", 
+      "parent": 16
+    }
+  }, 
+  {
+    "pk": 79, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0444\u044d\u043d\u0442\u0435\u0437\u0438", 
+      "parent": 16
+    }
+  }, 
+  {
+    "pk": 80, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0438\u0441\u0442\u043e\u0440\u0438\u044f", 
+      "parent": 8
+    }
+  }, 
+  {
+    "pk": 81, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u043d\u0430\u0443\u0447\u043d\u0430\u044f \u0444\u0430\u043d\u0442\u0430\u0441\u0442\u0438\u043a\u0430", 
+      "parent": 16
+    }
+  }, 
+  {
+    "pk": 82, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u043f\u0443\u0431\u043b\u0438\u0446\u0438\u0441\u0442\u0438\u043a\u0430", 
+      "parent": 3
+    }
+  }, 
+  {
+    "pk": 83, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0442\u0435\u0445\u043d\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u043d\u0430\u0443\u043a\u0438", 
+      "parent": 8
+    }
+  }, 
+  {
+    "pk": 84, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u043e \u0432\u043e\u0439\u043d\u0435", 
+      "parent": 2
+    }
+  }, 
+  {
+    "pk": 85, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0440\u0435\u043b\u0438\u0433\u0438\u044f", 
+      "parent": 1
+    }
+  }, 
+  {
+    "pk": 86, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0438\u0441\u0442\u043e\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u043f\u0440\u043e\u0437\u0430", 
+      "parent": 2
+    }
+  }, 
+  {
+    "pk": 87, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435", 
+      "parent": 7
+    }
+  }, 
+  {
+    "pk": 88, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u043e\u043a\u043e\u043b\u043e\u043a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u043d\u0430\u044f \u043b\u0438\u0442\u0435\u0440\u0430\u0442\u0443\u0440\u0430", 
+      "parent": 7
+    }
+  }, 
+  {
+    "pk": 89, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u043e\u0441 \u0438 \u0441\u0435\u0442\u0438", 
+      "parent": 7
+    }
+  }, 
+  {
+    "pk": 90, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u043d\u0430\u0443\u0447\u043d\u0430\u044f \u043b\u0438\u0442\u0435\u0440\u0430\u0442\u0443\u0440\u0430", 
+      "parent": 8
+    }
+  }, 
+  {
+    "pk": 91, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0445\u0438\u043c\u0438\u044f", 
+      "parent": 8
+    }
+  }, 
+  {
+    "pk": 92, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0431\u0438\u043e\u0433\u0440\u0430\u0444\u0438\u0438 \u0438 \u043c\u0435\u043c\u0443\u0430\u0440\u044b", 
+      "parent": 3
+    }
+  }, 
+  {
+    "pk": 93, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0434\u0435\u0442\u0441\u043a\u0430\u044f \u0444\u0430\u043d\u0442\u0430\u0441\u0442\u0438\u043a\u0430", 
+      "parent": 10
+    }
+  }, 
+  {
+    "pk": 94, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u044f\u0437\u044b\u043a\u043e\u0437\u043d\u0430\u043d\u0438\u0435", 
+      "parent": 8
+    }
+  }, 
+  {
+    "pk": 95, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0441\u0430\u043c\u043e\u0441\u043e\u0432\u0435\u0440\u0448\u0435\u043d\u0441\u0442\u0432\u043e\u0432\u0430\u043d\u0438\u0435", 
+      "parent": 1
+    }
+  }, 
+  {
+    "pk": 96, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0434\u0440\u0435\u0432\u043d\u0435\u0432\u043e\u0441\u0442\u043e\u0447\u043d\u0430\u044f \u043b\u0438\u0442\u0435\u0440\u0430\u0442\u0443\u0440\u0430", 
+      "parent": 11
+    }
+  }, 
+  {
+    "pk": 97, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u044d\u0440\u043e\u0442\u0438\u043a\u0430, \u0441\u0435\u043a\u0441", 
+      "parent": 14
+    }
+  }, 
+  {
+    "pk": 98, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0441\u043e\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u0430\u044f \u043f\u0440\u043e\u0437\u0430", 
+      "parent": 2
+    }
+  }, 
+  {
+    "pk": 99, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u043e \u0431\u0438\u0437\u043d\u0435\u0441\u0435 \u043f\u043e\u043f\u0443\u043b\u044f\u0440\u043d\u043e", 
+      "parent": 9
+    }
+  }, 
+  {
+    "pk": 100, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u043a\u0443\u043b\u044c\u0442\u0443\u0440\u043e\u043b\u043e\u0433\u0438\u044f", 
+      "parent": 8
+    }
+  }, 
+  {
+    "pk": 101, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0430\u043d\u0442\u0438\u0447\u043d\u0430\u044f \u043b\u0438\u0442\u0435\u0440\u0430\u0442\u0443\u0440\u0430", 
+      "parent": 11
+    }
+  }, 
+  {
+    "pk": 102, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0435\u0432\u0440\u043e\u043f\u0435\u0439\u0441\u043a\u0430\u044f \u0441\u0442\u0430\u0440\u0438\u043d\u043d\u0430\u044f \u043b\u0438\u0442\u0435\u0440\u0430\u0442\u0443\u0440\u0430", 
+      "parent": 11
+    }
+  }, 
+  {
+    "pk": 103, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0441\u043f\u0440\u0430\u0432\u043e\u0447\u043d\u0438\u043a\u0438", 
+      "parent": 5
+    }
+  }, 
+  {
+    "pk": 104, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u043a\u043b\u0430\u0441\u0441\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u043f\u0440\u043e\u0437\u0430", 
+      "parent": 2
+    }
+  }, 
+  {
+    "pk": 105, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u043f\u043e\u043b\u0438\u0442\u0438\u043a\u0430", 
+      "parent": 8
+    }
+  }, 
+  {
+    "pk": 106, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0445\u043e\u0431\u0431\u0438 \u0438 \u0440\u0435\u043c\u0435\u0441\u043b\u0430", 
+      "parent": 14
+    }
+  }, 
+  {
+    "pk": 107, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u043a\u0443\u043b\u0438\u043d\u0430\u0440\u0438\u044f", 
+      "parent": 14
+    }
+  }, 
+  {
+    "pk": 108, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u043b\u0438\u0442\u0435\u0440\u0430\u0442\u0443\u0440\u043e\u0432\u0435\u0434\u0435\u043d\u0438\u0435", 
+      "parent": 8
+    }
+  }, 
+  {
+    "pk": 109, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0444\u0438\u0437\u0438\u043a\u0430", 
+      "parent": 8
+    }
+  }, 
+  {
+    "pk": 110, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u044f \u0438 \u0433\u0435\u043e\u0433\u0440\u0430\u0444\u0438\u044f", 
+      "parent": 13
+    }
+  }, 
+  {
+    "pk": 111, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0434\u0435\u0442\u0441\u043a\u0430\u044f \u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u0430\u044f \u043b\u0438\u0442\u0435\u0440\u0430\u0442\u0443\u0440\u0430", 
+      "parent": 10
+    }
+  }, 
+  {
+    "pk": 112, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0441\u0442\u0430\u0440\u0438\u043d\u043d\u0430\u044f \u043b\u0438\u0442\u0435\u0440\u0430\u0442\u0443\u0440\u0430", 
+      "parent": 11
+    }
+  }, 
+  {
+    "pk": 113, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0431\u043e\u0435\u0432\u0438\u043a", 
+      "parent": 12
+    }
+  }, 
+  {
+    "pk": 114, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0434\u043e\u043c\u0430\u0448\u043d\u0438\u0435 \u0436\u0438\u0432\u043e\u0442\u043d\u044b\u0435", 
+      "parent": 14
+    }
+  }, 
+  {
+    "pk": 115, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0434\u0440\u0435\u0432\u043d\u0435\u0440\u0443\u0441\u0441\u043a\u0430\u044f \u043b\u0438\u0442\u0435\u0440\u0430\u0442\u0443\u0440\u0430", 
+      "parent": 11
+    }
+  }, 
+  {
+    "pk": 116, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u043f\u0440\u0438\u0440\u043e\u0434\u0430 \u0438 \u0436\u0438\u0432\u043e\u0442\u043d\u044b\u0435", 
+      "parent": 13
+    }
+  }, 
+  {
+    "pk": 117, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u043f\u0435\u0434\u0430\u0433\u043e\u0433\u0438\u043a\u0430", 
+      "parent": 8
+    }
+  }, 
+  {
+    "pk": 118, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u043d\u0430\u0443\u0447\u043d\u043e-\u043f\u043e\u043f\u0443\u043b\u044f\u0440\u043d\u0430\u044f \u043b\u0438\u0442\u0435\u0440\u0430\u0442\u0443\u0440\u0430", 
+      "parent": 8
+    }
+  }, 
+  {
+    "pk": 119, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u043a\u0440\u0430\u0441\u043e\u0442\u0430 \u0438 \u0437\u0434\u043e\u0440\u043e\u0432\u044c\u0435", 
+      "parent": 14
+    }
+  }, 
+  {
+    "pk": 120, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u043c\u0435\u043d\u0435\u0434\u0436\u043c\u0435\u043d\u0442", 
+      "parent": 9
+    }
+  }, 
+  {
+    "pk": 121, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0443\u0447\u0435\u0431\u043d\u0438\u043a\u0438", 
+      "parent": 5
+    }
+  }, 
+  {
+    "pk": 122, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0441\u043b\u043e\u0432\u0430\u0440\u0438", 
+      "parent": 5
+    }
+  }, 
+  {
+    "pk": 123, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0430\u043b\u044c\u0442\u0435\u0440\u043d\u0430\u0442\u0438\u0432\u043d\u0430\u044f \u043c\u0435\u0434\u0438\u0446\u0438\u043d\u0430", 
+      "parent": 8
+    }
+  }, 
+  {
+    "pk": 124, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0435\u0441\u0442\u0435\u0441\u0442\u0432\u043e\u0437\u043d\u0430\u043d\u0438\u0435", 
+      "parent": 8
+    }
+  }, 
+  {
+    "pk": 125, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u043f\u0441\u0438\u0445\u043e\u043b\u043e\u0433\u0438\u044f", 
+      "parent": 8
+    }
+  }, 
+  {
+    "pk": 126, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440, \u0434\u0438\u0437\u0430\u0439\u043d", 
+      "parent": 14
+    }
+  }, 
+  {
+    "pk": 127, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u043a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u043d\u043e\u0435 \u0436\u0435\u043b\u0435\u0437\u043e", 
+      "parent": 7
+    }
+  }, 
+  {
+    "pk": 128, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0444\u0438\u043b\u043e\u0441\u043e\u0444\u0438\u044f", 
+      "parent": 8
+    }
+  }, 
+  {
+    "pk": 129, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0440\u0443\u043a\u043e\u0432\u043e\u0434\u0441\u0442\u0432\u0430", 
+      "parent": 5
+    }
+  }, 
+  {
+    "pk": 130, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u044d\u0437\u043e\u0442\u0435\u0440\u0438\u043a\u0430", 
+      "parent": 1
+    }
+  }, 
+  {
+    "pk": 131, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0441\u043a\u0430\u0437\u043a\u0438", 
+      "parent": 10
+    }
+  }, 
+  {
+    "pk": 132, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0441\u043e\u0446\u0438\u043e\u043b\u043e\u0433\u0438\u044f", 
+      "parent": 8
+    }
+  }, 
+  {
+    "pk": 133, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0433\u0435\u043e\u043b\u043e\u0433\u0438\u044f \u0438 \u0433\u0435\u043e\u0433\u0440\u0430\u0444\u0438\u044f", 
+      "parent": 8
+    }
+  }, 
+  {
+    "pk": 134, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 1, 
+      "name": "\u0430\u0441\u0442\u0440\u043e\u043d\u043e\u043c\u0438\u044f \u0438 \u043a\u043e\u0441\u043c\u043e\u0441", 
+      "parent": 8
+    }
+  }, 
+  {
+    "pk": 135, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "\u043a\u043b\u0430\u0441\u0441\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u043b\u0438\u0442\u0435\u0440\u0430\u0442\u0443\u0440\u0430", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 136, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "\u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u043a\u0430\u043f\u0438\u0442\u0430\u043b\u043e\u043c", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 137, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "\u0442\u043e\u0440\u0433\u043e\u0432\u044b\u0435 \u0441\u0442\u0440\u0430\u0442\u0435\u0433\u0438\u0438", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 138, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "\u0436\u0438\u0432\u043e\u0442\u043d\u044b\u0435", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 139, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "\u043c\u0430\u0440\u043a\u0435\u0442\u0438\u043d\u0433, \u0440\u0435\u043a\u043b\u0430\u043c\u0430", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 140, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "\u0431\u0430\u043d\u043a\u043e\u0432\u0441\u043a\u043e\u0435 \u0434\u0435\u043b\u043e", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 141, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "\u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435, \u043f\u043e\u0434\u0431\u043e\u0440 \u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b\u0430", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 142, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "\u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u043e \u0438 \u043f\u0440\u0430\u0432\u043e", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 143, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "\u043f\u0430\u0440\u0442\u0438\u0442\u0443\u0440\u044b", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 144, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "\u043e \u043b\u044e\u0431\u0432\u0438", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 145, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "\u043c\u0430\u0433\u0438\u044f, \u043e\u043a\u043a\u0443\u043b\u044c\u0442\u0438\u0437\u043c, \u043c\u0438\u0441\u0442\u0438\u043a\u0430", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 146, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "\u0444\u044d\u043d-\u0448\u0443\u0439", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 147, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "\u043d\u0430\u0443\u043a\u0430 \u0438 \u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u0438\u0435", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 148, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "\u0432\u043e\u0435\u043d\u043d\u043e\u0435 \u0434\u0435\u043b\u043e", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 149, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "occult & supernatural", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 150, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "paranormal", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 151, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "crime", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 152, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "gay", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 153, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "body, mind & spirit", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 154, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "literary", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 155, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "religious", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 156, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "political", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 157, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "science", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 158, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "military", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 159, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "political science", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 160, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "psychological", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 161, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "gothic", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 162, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "biography & autobiography", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 163, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "humor", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 164, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "history", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 165, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "travel", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 166, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "visionary & metaphysical", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 167, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "\u0437\u0430\u0440\u0443\u0431\u0435\u0436\u043d\u0430\u044f \u0440\u043e\u043a-\u043c\u0443\u0437\u044b\u043a\u0430", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 168, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "c\u043f\u0440\u0430\u0432\u043e\u0447\u043d\u0438\u043a\u0438 \u0438 \u044d\u043d\u0446\u0438\u043a\u043b\u043e\u043f\u0435\u0434\u0438\u0438", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 169, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "russian sci-fi in english translation", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 170, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "\u043d\u0435\u0439\u0440\u043e\u043b\u0438\u043d\u0433\u0432\u0438\u0441\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 171, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "\u043a\u043b\u0443\u0431 \u043d\u0430\u0441\u0442\u043e\u044f\u0449\u0438\u0445 unix'\u043e\u0438\u0434\u043e\u0432", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 172, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "\u044d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u043d\u044b\u0435 \u0431\u0438\u0431\u043b\u0438\u043e\u0442\u0435\u043a\u0438, \u043e\u0431\u044a\u0435\u0434\u0438\u043d\u044f\u0439\u0442\u0435\u0441\u044c", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 173, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "fiction", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 174, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "science fiction", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 175, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "short stories", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 176, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "\u0432\u043f\u0435\u0447\u0430\u0442\u043b\u0435\u043d\u0438\u044f \u043e \u0437\u0430\u0433\u0440\u0430\u043d\u0438\u0447\u043d\u043e\u0439 \u0436\u0438\u0437\u043d\u0438", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 177, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "\u0432\u0437\u0440\u043e\u0441\u043b\u044b\u043c \u043e \u0434\u0435\u0442\u044f\u0445", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 178, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "\u0430\u043b\u044c\u043f\u0438\u043d\u0438\u0437\u043c \u0438 \u0433\u043e\u0440\u043d\u044b\u0439 \u0442\u0443\u0440\u0438\u0437\u043c", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 179, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "non-fiction", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 180, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "philosophy", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 181, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "historical", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 182, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "poetry", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 183, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "fairy tales, folk tales & mythology", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 184, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "erotica", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 185, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "fan fiction", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 186, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "suspense", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 187, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "thrillers", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 188, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "horror", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 189, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "humorous", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 190, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "juvenile", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 191, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "mystery & detective", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 192, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "romance", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 193, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "drama", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 194, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "ghost", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 195, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "action & adventure", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 196, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "religion", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 197, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "psychology", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 198, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "fantasy", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 199, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "war & military", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 200, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "anthologies (multiple authors)", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 201, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": 0, 
+      "name": "alternative history", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 202, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u0444\u0438\u0437\u0438\u043e\u043b\u043e\u0433\u0438\u044f \u0447\u0435\u043b\u043e\u0432\u0435\u043a\u0430", 
+      "parent": 73
+    }
+  }, 
+  {
+    "pk": 203, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u0442\u0435\u0445\u043d\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u0440\u0443\u043a\u043e\u0432\u043e\u0434\u0441\u0442\u0432\u0430", 
+      "parent": 83
+    }
+  }, 
+  {
+    "pk": 204, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u0446\u0435\u043d\u043d\u044b\u0435 \u0431\u0443\u043c\u0430\u0433\u0438, \u0438\u043d\u0432\u0435\u0441\u0442\u0438\u0446\u0438\u0438", 
+      "parent": 120
+    }
+  }, 
+  {
+    "pk": 205, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u043f\u0443\u0442\u0435\u0432\u043e\u0434\u0438\u0442\u0435\u043b\u0438", 
+      "parent": 5
+    }
+  }, 
+  {
+    "pk": 206, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u0441\u043e\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u0430\u044f \u0434\u0440\u0430\u043c\u0430\u0442\u0443\u0440\u0433\u0438\u044f", 
+      "parent": 36
+    }
+  }, 
+  {
+    "pk": 207, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u0441\u0435\u043d\u0442\u0438\u043c\u0435\u043d\u0442\u0430\u043b\u044c\u043d\u044b\u0439 \u0440\u043e\u043c\u0430\u043d", 
+      "parent": 6
+    }
+  }, 
+  {
+    "pk": 208, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u0442\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442 \u0438 \u0430\u0432\u0438\u0430\u0446\u0438\u044f", 
+      "parent": 83
+    }
+  }, 
+  {
+    "pk": 209, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u043f\u0440\u0438\u043a\u043b\u0430\u0434\u043d\u0430\u044f \u0444\u0438\u0437\u0438\u043a\u0430", 
+      "parent": 109
+    }
+  }, 
+  {
+    "pk": 210, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u043a\u043e\u0441\u043c\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0435\u0445\u043d\u0438\u043a\u0430", 
+      "parent": 83
+    }
+  }, 
+  {
+    "pk": 211, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u0434\u043b\u044f \u0441\u0430\u043c\u044b\u0445 \u043c\u0430\u043b\u0435\u043d\u044c\u043a\u0438\u0445", 
+      "parent": 10
+    }
+  }, 
+  {
+    "pk": 212, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u0440\u0443\u043a\u043e\u0432\u043e\u0434\u0441\u0442\u0432\u0430 \u043f\u043e \u043f\u0440\u0438\u043a\u043b\u0430\u0434\u043d\u043e\u0439 \u043f\u0441\u0438\u0445\u043e\u043b\u043e\u0433\u0438\u0438", 
+      "parent": 125
+    }
+  }, 
+  {
+    "pk": 213, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u043f\u0430\u0440\u0430\u0448\u044e\u0442\u0438\u0437\u043c", 
+      "parent": 66
+    }
+  }, 
+  {
+    "pk": 214, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u0433\u0438\u0434\u0440\u043e\u0433\u0435\u043e\u043b\u043e\u0433\u0438\u044f", 
+      "parent": 133
+    }
+  }, 
+  {
+    "pk": 215, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u0440\u0443\u0441\u0441\u043a\u0430\u044f \u0441\u043e\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u0430\u044f \u043f\u0440\u043e\u0437\u0430", 
+      "parent": 98
+    }
+  }, 
+  {
+    "pk": 216, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u0437\u0430\u0440\u0443\u0431\u0435\u0436\u043d\u0430\u044f \u0444\u0430\u043d\u0442\u0430\u0441\u0442\u0438\u043a\u0430", 
+      "parent": 217
+    }
+  }, 
+  {
+    "pk": 217, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -2, 
+      "name": "\u0444\u0430\u043d\u0442\u0430\u0441\u0442\u0438\u043a\u0430", 
+      "parent": 81
+    }
+  }, 
+  {
+    "pk": 218, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u043d\u0435\u0431\u0435\u0441\u043d\u0430\u044f \u043c\u0435\u0445\u0430\u043d\u0438\u043a\u0430", 
+      "parent": 69
+    }
+  }, 
+  {
+    "pk": 219, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u0438\u043d\u043e\u0441\u0442\u0440\u0430\u043d\u043d\u044b\u0435 \u044f\u0437\u044b\u043a\u0438", 
+      "parent": 94
+    }
+  }, 
+  {
+    "pk": 220, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u0430\u0441\u0442\u0440\u043e\u043b\u043e\u0433\u0438\u044f, \u0433\u043e\u0440\u043e\u0441\u043a\u043e\u043f\u044b, \u0433\u0430\u0434\u0430\u043d\u0438\u044f", 
+      "parent": 130
+    }
+  }, 
+  {
+    "pk": 221, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u0437\u0430\u0440\u0443\u0431\u0435\u0436\u043d\u0430\u044f \u0444\u0430\u043d\u0442\u0430\u0441\u0442\u0438\u043a\u0430 \u0440\u043e\u0441\u0441\u044b\u043f\u044c\u044e", 
+      "parent": 216
+    }
+  }, 
+  {
+    "pk": 222, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u0430\u0432\u0442\u043e\u0440\u0441\u043a\u0430\u044f \u043f\u0435\u0441\u043d\u044f \u0438 \u0440\u0443\u0441\u0441\u043a\u0438\u0439 \u0440\u043e\u043a", 
+      "parent": 77
+    }
+  }, 
+  {
+    "pk": 223, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u043a\u0438\u0442\u0430\u0439\u0441\u043a\u0430\u044f \u043f\u043e\u044d\u0437\u0438\u044f", 
+      "parent": 77
+    }
+  }, 
+  {
+    "pk": 224, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u0439\u043e\u0433\u0430", 
+      "parent": 95
+    }
+  }, 
+  {
+    "pk": 225, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u043e\u0431\u0449\u0430\u044f \u043b\u0438\u0442\u0435\u0440\u0430\u0442\u0443\u0440\u0430 \u043f\u043e \u0430\u0441\u0442\u0440\u043e\u043d\u043e\u043c\u0438\u0438", 
+      "parent": 134
+    }
+  }, 
+  {
+    "pk": 226, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u043e\u043d\u0442\u043e\u043b\u043e\u0433\u0438\u044f", 
+      "parent": 128
+    }
+  }, 
+  {
+    "pk": 227, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u0437\u0432\u0435\u0437\u0434\u044b", 
+      "parent": 134
+    }
+  }, 
+  {
+    "pk": 228, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u0430 \u0438 \u0437\u043e\u0434\u0447\u0435\u0441\u0442\u0432\u043e", 
+      "parent": 72
+    }
+  }, 
+  {
+    "pk": 229, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u0443\u0447\u0435\u0431\u043d\u0438\u043a\u0438 \u0434\u043b\u044f \u0448\u043a\u043e\u043b\u044b", 
+      "parent": 121
+    }
+  }, 
+  {
+    "pk": 230, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u0440\u0443\u0441\u0441\u043a\u0438\u0439 \u044f\u0437\u044b\u043a \u0438 \u043b\u0438\u0442\u0435\u0440\u0430\u0442\u0443\u0440\u0430", 
+      "parent": 94
+    }
+  }, 
+  {
+    "pk": 231, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u0433\u043d\u043e\u0441\u0441\u0435\u043e\u043b\u043e\u0433\u0438\u044f", 
+      "parent": 128
+    }
+  }, 
+  {
+    "pk": 232, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u0441\u043e\u0432\u0435\u0442\u0441\u043a\u0430\u044f \u0444\u0430\u043d\u0442\u0430\u0441\u0442\u0438\u043a\u0430", 
+      "parent": 16
+    }
+  }, 
+  {
+    "pk": 233, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u0440\u0430\u0434\u0438\u043e\u044d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u0438\u043a\u0430", 
+      "parent": 83
+    }
+  }, 
+  {
+    "pk": 234, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u0436\u0443\u0440\u043d\u0430\u043b\u044b", 
+      "parent": 82
+    }
+  }, 
+  {
+    "pk": 235, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u043e\u0431\u0449\u0430\u044f \u0431\u0438\u043e\u043b\u043e\u0433\u0438\u044f", 
+      "parent": 68
+    }
+  }, 
+  {
+    "pk": 236, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u0434\u043b\u044f \u0434\u043e\u0448\u043a\u043e\u043b\u044c\u043d\u0438\u043a\u043e\u0432", 
+      "parent": 10
+    }
+  }, 
+  {
+    "pk": 237, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u0430\u043b\u0433\u0435\u0431\u0440\u0430", 
+      "parent": 69
+    }
+  }, 
+  {
+    "pk": 238, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u0434\u0438\u0444\u0444\u0435\u0440\u0435\u043d\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0435 \u0443\u0440\u0430\u0432\u043d\u0435\u043d\u0438\u044f", 
+      "parent": 69
+    }
+  }, 
+  {
+    "pk": 239, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u0437\u0430\u043a\u043e\u043d\u044b, \u0430\u043a\u0442\u044b, \u043f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u044f", 
+      "parent": 55
+    }
+  }, 
+  {
+    "pk": 240, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u043e\u0431\u0449\u0430\u044f \u0444\u0438\u0437\u0438\u043a\u0430", 
+      "parent": 109
+    }
+  }, 
+  {
+    "pk": 241, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u0442\u0435\u043e\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0444\u0438\u0437\u0438\u043a\u0430", 
+      "parent": 109
+    }
+  }, 
+  {
+    "pk": 242, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u0443\u0440\u0430\u0432\u043d\u0435\u043d\u0438\u044f \u043c\u0430\u0442\u0435\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u0444\u0438\u0437\u0438\u043a\u0438", 
+      "parent": 69
+    }
+  }, 
+  {
+    "pk": 243, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u0430\u043d\u0430\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0445\u0438\u043c\u0438\u044f", 
+      "parent": 91
+    }
+  }, 
+  {
+    "pk": 244, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u043d\u0435\u043e\u0440\u0433\u0430\u043d\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0445\u0438\u043c\u0438\u044f", 
+      "parent": 91
+    }
+  }, 
+  {
+    "pk": 245, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u043e\u0440\u0433\u0430\u043d\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0445\u0438\u043c\u0438\u044f", 
+      "parent": 91
+    }
+  }, 
+  {
+    "pk": 246, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u043f\u043e\u043b\u0438\u043c\u0435\u0440\u044b \u0438 \u0432\u043e\u043b\u043e\u043a\u043d\u0430", 
+      "parent": 83
+    }
+  }, 
+  {
+    "pk": 247, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u043c\u0435\u0442\u043e\u0434\u044b", 
+      "parent": 83
+    }
+  }, 
+  {
+    "pk": 248, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u0431\u0435\u043b\u043a\u0438", 
+      "parent": 249
+    }
+  }, 
+  {
+    "pk": 249, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u0431\u0438\u043e\u0445\u0438\u043c\u0438\u044f", 
+      "parent": 91
+    }
+  }, 
+  {
+    "pk": 250, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u043a\u0430\u0442\u0430\u043b\u0438\u0437", 
+      "parent": 91
+    }
+  }, 
+  {
+    "pk": 251, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u0430\u0440\u0438\u0444\u043c\u0435\u0442\u0438\u043a\u0430", 
+      "parent": 69
+    }
+  }, 
+  {
+    "pk": 252, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u043d\u0435\u0439\u0440\u043e\u0441\u0435\u0442\u0438", 
+      "parent": 69
+    }
+  }, 
+  {
+    "pk": 253, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u0441\u0442\u0440\u043e\u0438\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u043e \u0438 \u0441\u043e\u043f\u0440\u043e\u043c\u0430\u0442", 
+      "parent": 83
+    }
+  }, 
+  {
+    "pk": 254, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u0433\u0435\u043e\u043c\u0435\u0442\u0440\u0438\u044f", 
+      "parent": 69
+    }
+  }, 
+  {
+    "pk": 255, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u043c\u0430\u0442\u0430\u043d\u0430\u043b\u0438\u0437", 
+      "parent": 69
+    }
+  }, 
+  {
+    "pk": 256, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u0432\u044b\u0447\u0438\u0441\u043b\u0438\u0442\u0435\u043b\u044c\u043d\u0430\u044f \u043c\u0430\u0442\u0435\u043c\u0430\u0442\u0438\u043a\u0430", 
+      "parent": 69
+    }
+  }, 
+  {
+    "pk": 257, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u043b\u043e\u0433\u0438\u043a\u0430", 
+      "parent": 69
+    }
+  }, 
+  {
+    "pk": 258, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u043c\u0430\u043b\u044b\u0439 \u0431\u0438\u0437\u043d\u0435\u0441", 
+      "parent": 120
+    }
+  }, 
+  {
+    "pk": 259, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0445\u0438\u043c\u0438\u044f", 
+      "parent": 91
+    }
+  }, 
+  {
+    "pk": 260, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u043a\u043b\u0443\u0431 \u043b\u044e\u0431\u0438\u0442\u0435\u043b\u044f \u0444\u0430\u043d\u0442\u0430\u0441\u0442\u0438\u043a\u0438", 
+      "parent": 16
+    }
+  }, 
+  {
+    "pk": 261, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u0441\u043e\u0446\u0438\u0430\u043b\u0438\u0441\u0442\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0444\u0430\u043d\u0442\u0430\u0441\u0442\u0438\u043a\u0430", 
+      "parent": 16
+    }
+  }, 
+  {
+    "pk": 262, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u0432 \u0438\u043d\u0442\u0435\u0440\u043d\u0435\u0442", 
+      "parent": 87
+    }
+  }, 
+  {
+    "pk": 263, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u043e\u0442\u0435\u0447\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u0430\u044f \u043f\u0440\u043e\u0437\u0430", 
+      "parent": 2
+    }
+  }, 
+  {
+    "pk": 264, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u0431\u0443\u0434\u0434\u0438\u0437\u043c", 
+      "parent": 85
+    }
+  }, 
+  {
+    "pk": 265, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u0433\u0440\u0430\u0436\u0434\u0430\u043d\u0441\u043a\u043e\u0435 \u043f\u0440\u0430\u0432\u043e", 
+      "parent": 55
+    }
+  }, 
+  {
+    "pk": 266, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u0444\u0438\u0437\u0438\u043e\u043b\u043e\u0433\u0438\u044f", 
+      "parent": 68
+    }
+  }, 
+  {
+    "pk": 267, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u0431\u0438\u043e\u0444\u0438\u0437\u0438\u043a\u0430", 
+      "parent": 109
+    }
+  }, 
+  {
+    "pk": 268, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u043e\u0431\u043e\u0440\u0443\u0434\u043e\u0432\u0430\u043d\u0438\u0435", 
+      "parent": 269
+    }
+  }, 
+  {
+    "pk": 269, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u0442\u0435\u0445\u043d\u0438\u043a\u0430", 
+      "parent": 83
+    }
+  }, 
+  {
+    "pk": 270, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u043c\u0435\u0442\u0430\u043b\u0443\u0440\u0433\u0438\u044f", 
+      "parent": 83
+    }
+  }, 
+  {
+    "pk": 271, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u0445\u0438\u043c\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u043f\u0440\u043e\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u043e\u0441\u0442\u044c", 
+      "parent": 91
+    }
+  }, 
+  {
+    "pk": 272, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u0442\u0435\u0445\u043d\u0438\u043a\u0430 \u0434\u043b\u044f \u0431\u0443\u0440\u0435\u043d\u0438\u044f", 
+      "parent": 83
+    }
+  }, 
+  {
+    "pk": 273, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u0442\u0435\u0445\u043d\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0430\u043d\u0430\u043b\u0438\u0437", 
+      "parent": 83
+    }
+  }, 
+  {
+    "pk": 274, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u0432\u043e\u043b\u043d\u043e\u0432\u043e\u0439 \u0430\u043d\u0430\u043b\u0438\u0437", 
+      "parent": 39
+    }
+  }, 
+  {
+    "pk": 275, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u0442\u043e\u0440\u0433\u043e\u0432\u043b\u044f", 
+      "parent": 65
+    }
+  }, 
+  {
+    "pk": 276, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u043f\u043e\u0441\u0442\u0430\u043f\u043e\u043a\u0430\u043b\u0438\u043f\u0441\u0438\u0441", 
+      "parent": 16
+    }
+  }, 
+  {
+    "pk": 277, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u0434\u0435\u0442\u0441\u043a\u0438\u0435 \u044d\u043d\u0446\u0438\u043a\u043b\u043e\u043f\u0435\u0434\u0438\u0438", 
+      "parent": 10
+    }
+  }, 
+  {
+    "pk": 278, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u0434\u043b\u044f \u0434\u043e\u0448\u043a\u043e\u043b\u044c\u043d\u0438\u043a\u043e\u0432 \u0438 \u043c\u043b\u0430\u0434\u0448\u0438\u0445 \u043a\u043b\u0430\u0441\u0441\u043e\u0432", 
+      "parent": 10
+    }
+  }, 
+  {
+    "pk": 279, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u0444\u0430\u0440\u043c\u0430\u043a\u043e\u043b\u043e\u0433\u0438\u044f", 
+      "parent": 73
+    }
+  }, 
+  {
+    "pk": 280, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u043c\u043e\u043b\u0435\u043a\u0443\u043b\u044f\u0440\u043d\u043e\u0435 \u043c\u043e\u0434\u0435\u043b\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435", 
+      "parent": 91
+    }
+  }, 
+  {
+    "pk": 281, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u043c\u043e\u043b\u0435\u043a\u0443\u043b\u044f\u0440\u043d\u0430\u044f \u0431\u0438\u043e\u043b\u043e\u0433\u0438\u044f", 
+      "parent": 68
+    }
+  }, 
+  {
+    "pk": 282, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u0433\u0435\u043d\u0435\u0442\u0438\u043a\u0430", 
+      "parent": 68
+    }
+  }, 
+  {
+    "pk": 283, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u043d\u0435\u0439\u0440\u043e\u043b\u043e\u0433\u0438\u044f", 
+      "parent": 68
+    }
+  }, 
+  {
+    "pk": 284, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u043a\u0443\u043b\u044c\u0442\u0443\u0440\u0430", 
+      "parent": 100
+    }
+  }, 
+  {
+    "pk": 285, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u0433\u043e\u0440\u043e\u0434\u0441\u043a\u043e\u0435 \u0444\u044d\u043d\u0442\u0435\u0437\u0438", 
+      "parent": 79
+    }
+  }, 
+  {
+    "pk": 286, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u043e\u0431\u0449\u0430\u044f \u043c\u0435\u0434\u0438\u0446\u0438\u043d\u0430", 
+      "parent": 73
+    }
+  }, 
+  {
+    "pk": 287, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u0430\u043d\u0430\u0442\u043e\u043c\u0438\u044f", 
+      "parent": 73
+    }
+  }, 
+  {
+    "pk": 288, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -1, 
+      "name": "\u0442\u0435\u043e\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0431\u0438\u043e\u043b\u043e\u0433\u0438\u044f", 
+      "parent": 68
+    }
+  }, 
+  {
+    "pk": 289, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -2, 
+      "name": "\u0430\u0441\u0442\u0440\u043e\u043d\u043e\u043c\u0438\u044f", 
+      "parent": 134
+    }
+  }, 
+  {
+    "pk": 290, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -2, 
+      "name": "\u043f\u0440\u0438\u0440\u043e\u0434\u043e\u0432\u0435\u0434\u0435\u043d\u0438\u0435 \u0438 \u0437\u043e\u043e\u043b\u043e\u0433\u0438\u044f", 
+      "parent": 116
+    }
+  }, 
+  {
+    "pk": 291, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -2, 
+      "name": "\u0438\u0441\u0442\u043e\u0440\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u0440\u043e\u043c\u0430\u043d\u044b(\u043f\u0435\u0440\u0435\u0432\u043e\u0434\u044b)", 
+      "parent": 86
+    }
+  }, 
+  {
+    "pk": 292, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -2, 
+      "name": "\u0441\u043f\u0440\u0430\u0432\u043e\u0447\u043d\u0438\u043a\u0438, \u0443\u0447\u0435\u0431\u043d\u0438\u043a\u0438", 
+      "parent": 121
+    }
+  }, 
+  {
+    "pk": 293, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -2, 
+      "name": "\u0440\u0443\u0441\u0441\u043a\u0430\u044f \u0438 \u0437\u0430\u0440\u0443\u0431\u0435\u0436\u043d\u0430\u044f \u043f\u043e\u044d\u0437\u0438\u044f", 
+      "parent": 77
+    }
+  }, 
+  {
+    "pk": 294, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -2, 
+      "name": "\u0438\u0441\u0442\u043e\u0440\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u0440\u043e\u043c\u0430\u043d\u044b(\u043e\u0442\u0435\u0447\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435)", 
+      "parent": 86
+    }
+  }, 
+  {
+    "pk": 295, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -2, 
+      "name": "\u0440\u0435\u043b\u0438\u0433\u0438\u043e\u0437\u043d\u0430\u044f \u043b\u0438\u0442\u0435\u0440\u0430\u0442\u0443\u0440\u0430", 
+      "parent": 85
+    }
+  }, 
+  {
+    "pk": 296, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -2, 
+      "name": "\u0442\u043e\u0447\u043d\u044b\u0435 \u043d\u0430\u0443\u043a\u0438", 
+      "parent": 90
+    }
+  }, 
+  {
+    "pk": 297, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -2, 
+      "name": "\u043c\u0435\u043c\u0443\u0430\u0440\u044b \u0438 \u0436\u0438\u0437\u043d\u0435\u043e\u043f\u0438\u0441\u0430\u043d\u0438\u044f", 
+      "parent": 92
+    }
+  }, 
+  {
+    "pk": 298, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -2, 
+      "name": "\u0438\u0441\u0442\u043e\u0440\u0438\u044f (\u043d\u0430\u0443\u043a\u0430 \u0438 \u0433\u0438\u043f\u043e\u0442\u0435\u0437\u044b)", 
+      "parent": 80
+    }
+  }, 
+  {
+    "pk": 299, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -2, 
+      "name": "\u0437\u0430\u0440\u0443\u0431\u0435\u0436\u043d\u044b\u0439 \u0434\u0435\u0442\u0435\u043a\u0442\u0438\u0432", 
+      "parent": 76
+    }
+  }, 
+  {
+    "pk": 300, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -2, 
+      "name": "\u043f\u043e\u043b\u0438\u0442\u043e\u043b\u043e\u0433\u0438\u044f", 
+      "parent": 105
+    }
+  }, 
+  {
+    "pk": 301, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -2, 
+      "name": "\u0441\u043a\u0430\u0437\u043a\u0430", 
+      "parent": 131
+    }
+  }, 
+  {
+    "pk": 302, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -2, 
+      "name": "\u0441\u043f\u0440\u0430\u0432\u043e\u0447\u043d\u0438\u043a\u0438 \u0438 \u044d\u043d\u0446\u0438\u043a\u043b\u043e\u043f\u0435\u0434\u0438\u0438", 
+      "parent": 5
+    }
+  }, 
+  {
+    "pk": 303, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -2, 
+      "name": "\u0441\u043f\u0440\u0430\u0432\u043e\u0447\u043d\u0438\u043a\u0438, \u044d\u043d\u0446\u0438\u043a\u043b\u043e\u043f\u0435\u0434\u0438\u0438", 
+      "parent": 5
+    }
+  }, 
+  {
+    "pk": 304, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -2, 
+      "name": "\u0441\u0430\u0434\u043e\u0432\u043e\u0434\u0441\u0442\u0432\u043e", 
+      "parent": 44
+    }
+  }, 
+  {
+    "pk": 305, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -2, 
+      "name": "\u0440\u0430\u0437\u043d\u043e\u0435", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 306, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -2, 
+      "name": "\u043f\u0441\u0438\u0445\u043e\u043b\u043e\u0433\u0438\u044f \u0438 \u0445\u0443\u0434\u043b\u0438\u0442", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 307, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -2, 
+      "name": "\u0438\u0441\u0442\u043e\u0440\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0440\u043e\u043c\u0430\u043d, \u043f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f", 
+      "parent": 30
+    }
+  }, 
+  {
+    "pk": 308, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -2, 
+      "name": "\u0444\u0438\u0437\u0438\u043a\u0430 \u0438 \u0430\u0441\u0442\u0440\u043e\u043d\u043e\u043c\u0438\u044f", 
+      "parent": 109
+    }
+  }, 
+  {
+    "pk": 309, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -2, 
+      "name": "\u0431\u0438\u043e\u0433\u0440\u0430\u0444\u0438\u0438, \u043c\u0435\u043c\u0443\u0430\u0440\u044b, \u043b\u0438\u0447\u043d\u043e\u0441\u0442\u0438", 
+      "parent": 92
+    }
+  }, 
+  {
+    "pk": 310, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -2, 
+      "name": "\u0434\u0435\u0442\u0435\u043a\u0442\u0438\u0432\u044b, \u0431\u043e\u0435\u0432\u0438\u043a\u0438, \u0442\u0440\u0438\u043b\u043b\u0435\u0440\u044b", 
+      "parent": 12
+    }
+  }, 
+  {
+    "pk": 311, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -2, 
+      "name": "\u0440\u0435\u043b\u0438\u0433\u0438\u0438", 
+      "parent": 85
+    }
+  }, 
+  {
+    "pk": 312, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -2, 
+      "name": "\u043a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u043d\u043e\u0435 '\u0436\u0435\u043b\u0435\u0437\u043e' (\u0430\u043f\u043f\u0430\u0440\u0430\u0442\u043d\u043e\u0435 \u043e\u0431\u0435\u0441\u043f\u0435\u0447\u0435\u043d\u0438\u0435)", 
+      "parent": 127
+    }
+  }, 
+  {
+    "pk": 313, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -2, 
+      "name": "\u0430\u043b\u044c\u0442\u0435\u0440\u043d\u0430\u0442\u0438\u0432\u043d\u0430\u044f \u043c\u0435\u0434\u0438\u0446\u0438\u043d\u0430 (\u0447\u0435\u043c\u0443 \u043d\u0435 \u0443\u0447\u0430\u0442 \u0432 \u043c\u0435\u0434\u0438\u043d\u0441\u0442\u0438\u0442\u0443\u0442\u0430\u0445)", 
+      "parent": 123
+    }
+  }, 
+  {
+    "pk": 314, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -2, 
+      "name": "\u0437\u0434\u043e\u0440\u043e\u0432\u044c\u0435", 
+      "parent": 119
+    }
+  }, 
+  {
+    "pk": 315, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -2, 
+      "name": "\u0434\u043e\u043c\u043e\u0432\u043e\u0434\u0441\u0442\u0432\u043e", 
+      "parent": 14
+    }
+  }, 
+  {
+    "pk": 316, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -2, 
+      "name": "\u0441\u043f\u0440\u0430\u0432\u043e\u0447\u043d\u044b\u0435 \u0438\u0437\u0434\u0430\u043d\u0438\u044f", 
+      "parent": 103
+    }
+  }, 
+  {
+    "pk": 317, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -2, 
+      "name": "\u0438\u043d\u0442\u0435\u0440\u043d\u0435\u0442 \u0438 \u043b\u043e\u043a\u0430\u043b\u044c\u043d\u044b\u0435 \u0441\u0435\u0442\u0438", 
+      "parent": 43
+    }
+  }, 
+  {
+    "pk": 318, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -2, 
+      "name": "\u044e\u043c\u043e\u0440 \u0438 \u0441\u0430\u0442\u0438\u0440\u0430", 
+      "parent": 4
+    }
+  }, 
+  {
+    "pk": 319, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -2, 
+      "name": "\u044f\u0437\u044b\u043a\u0438 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f", 
+      "parent": 87
+    }
+  }, 
+  {
+    "pk": 320, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -2, 
+      "name": "\u0445\u0443\u0434\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u0430\u044f \u043b\u0438\u0442\u0435\u0440\u0430\u0442\u0443\u0440\u0430", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 321, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -2, 
+      "name": "\u0441\u043b\u043e\u0432\u0430\u0440\u0438 \u0438 \u0440\u0430\u0437\u0433\u043e\u0432\u043e\u0440\u043d\u0438\u043a\u0438", 
+      "parent": 122
+    }
+  }, 
+  {
+    "pk": 322, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -2, 
+      "name": "security \u0438 firewall'\u044b", 
+      "parent": 89
+    }
+  }, 
+  {
+    "pk": 323, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -2, 
+      "name": "\u0437\u0430\u043f\u0438\u0441\u043a\u0438 web-\u043c\u0430\u0441\u0442\u0435\u0440\u0430", 
+      "parent": 89
+    }
+  }, 
+  {
+    "pk": 324, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -2, 
+      "name": "\u0441\u0442\u0430\u0440\u0438\u043d\u043d\u0430\u044f \u0435\u0432\u0440\u043e\u043f\u0435\u0439\u0441\u043a\u0430\u044f \u043b\u0438\u0442\u0435\u0440\u0430\u0442\u0443\u0440\u0430", 
+      "parent": 102
+    }
+  }, 
+  {
+    "pk": 325, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -2, 
+      "name": "\u043f\u0435\u0440\u0435\u0432\u043e\u0434\u043d\u0430\u044f \u043f\u0440\u043e\u0437\u0430", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 326, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -2, 
+      "name": "\u044d\u043a\u043e\u043d\u043e\u043c\u0438\u043a\u0430, \u044d\u043a\u043e\u043d\u043e\u043c\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0435\u043e\u0440\u0438\u044f", 
+      "parent": 39
+    }
+  }, 
+  {
+    "pk": 327, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -2, 
+      "name": "\u043f\u0440\u043e\u0437\u0430 90-\u0445 - 2000-\u0445 \u0433\u043e\u0434\u043e\u0432", 
+      "parent": 98
+    }
+  }, 
+  {
+    "pk": 328, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -2, 
+      "name": "\u0433\u0435\u043e\u043b\u043e\u0433\u0438\u044f", 
+      "parent": 133
+    }
+  }, 
+  {
+    "pk": 329, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -2, 
+      "name": "\u0440\u0443\u0441\u0441\u043a\u0430\u044f \u043a\u043b\u0430\u0441\u0441\u0438\u043a\u0430", 
+      "parent": 74
+    }
+  }, 
+  {
+    "pk": 330, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -2, 
+      "name": "\u0440\u0430\u0437\u043d\u043e\u043e\u0431\u0440\u0430\u0437\u043d\u044b\u0435 \u0442\u0435\u043a\u0441\u0442\u044b", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 331, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -2, 
+      "name": "\u043b\u044e\u0431\u043e\u0432\u044c \u0438 \u044d\u0440\u043e\u0442\u0438\u043a\u0430", 
+      "parent": 35
+    }
+  }, 
+  {
+    "pk": 332, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -2, 
+      "name": "\u043b\u0438\u0442\u0435\u0440\u0430\u0442\u0443\u0440\u0430 \u0434\u043b\u044f \u0441\u043f\u0435\u0446\u0438\u0430\u043b\u0438\u0441\u0442\u043e\u0432", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 333, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -2, 
+      "name": "\u0441\u0430\u0434, \u043e\u0433\u043e\u0440\u043e\u0434", 
+      "parent": 44
+    }
+  }, 
+  {
+    "pk": 334, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -2, 
+      "name": "\u0437\u0430\u0440\u0443\u0431\u0435\u0436\u043d\u0430\u044f \u043f\u0440\u043e\u0437\u0430 \u0438 \u043f\u043e\u044d\u0437\u0438\u044f", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 335, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -2, 
+      "name": "\u043d\u0430\u0440\u043e\u0434\u043d\u0430\u044f \u0438 \u043d\u0435\u0442\u0440\u0430\u0434\u0438\u0446\u0438\u043e\u043d\u043d\u0430\u044f \u043c\u0435\u0434\u0438\u0446\u0438\u043d\u0430", 
+      "parent": 123
+    }
+  }, 
+  {
+    "pk": 336, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -2, 
+      "name": "\u0438\u0433\u0440\u044b \u0438 \u0440\u0430\u0437\u0432\u043b\u0435\u0447\u0435\u043d\u0438\u044f", 
+      "parent": 27
+    }
+  }, 
+  {
+    "pk": 337, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -2, 
+      "name": "\u0434\u0435\u0442\u0441\u043a\u0430\u044f \u043b\u0438\u0442\u0435\u0440\u0430\u0442\u0443\u0440\u0430", 
+      "parent": 10
+    }
+  }, 
+  {
+    "pk": 338, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -2, 
+      "name": "\u0443\u0447\u0435\u0431\u043d\u0438\u043a\u0438 \u0434\u043b\u044f \u0442\u0435\u0445\u043d\u0438\u043a\u0443\u043c\u043e\u0432 \u0438 \u0432\u0443\u0437\u043e\u0432", 
+      "parent": 121
+    }
+  }, 
+  {
+    "pk": 339, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -2, 
+      "name": "\u043d\u0435\u043e\u0442\u0441\u043e\u0440\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u043e\u0435", 
+      "parent": null
+    }
+  }, 
+  {
+    "pk": 340, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -2, 
+      "name": "\u0444\u043e\u043b\u044c\u043a\u043b\u043e\u0440, \u043c\u0438\u0444\u044b, \u044d\u043f\u043e\u0441\u044b, \u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f", 
+      "parent": 17
+    }
+  }, 
+  {
+    "pk": 341, 
+    "model": "book.tag", 
+    "fields": {
+      "credit": -2, 
+      "name": "\u0440\u0443\u0441\u0441\u043a\u0430\u044f \u0434\u043e\u0432\u043e\u0435\u043d\u043d\u0430\u044f \u043b\u0438\u0442\u0435\u0440\u0430\u0442\u0443\u0440\u0430", 
+      "parent": 32
+    }
+  }
+]

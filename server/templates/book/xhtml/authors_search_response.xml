@@ -1,0 +1,39 @@
+{% extends "book/base.html" %}
+{% load i18n %}
+{% load pagination_tags %}
+
+{% block title %}
+    Search results for: 
+        Author "{{ author }}";
+{% endblock %}
+
+
+{% block content %} 
+    {% include "book/xhtml/extended_search_form.xml" %}
+
+    {% if authors %}
+        {% autopaginate authors items_per_page %}
+        {% for auth in authors %}
+            <hr class="space" />
+
+            <div class="authors">
+                <div id="book_title">
+                        <a href="author/id{{ auth.id }}" class="gray">{{ auth.name }}</a></em>
+                </div>
+                <div class="books"><br/>
+                    {% if auth.book_set.all.0%}
+                        <a href="book/id{{ auth.book_set.all.0.id }}" class="book">{{ auth.book_set.all.0.title }}</a></em>
+                    {% endif %}
+                    {% if auth.book_set.all.1%}
+                        <a href="book/id{{ auth.book_set.all.1.id }}" class="book">{{ auth.book_set.all.1.title }}</a></em>                
+                    {% endif %}
+                    {% if auth.book_set.all.2%}
+                        <a href="book/id{{ auth.book_set.all.2.id }}" class="book">{{ auth.book_set.all.2.title }}</a></em>        
+                    {% endif %}
+                </div>
+            </div>
+        {% endfor %}  
+        <hr class="space" />
+        {% paginate %}  
+    {% endif %}
+{% endblock %}

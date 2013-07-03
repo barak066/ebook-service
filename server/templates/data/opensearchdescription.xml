@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" >
+    <ShortName>EBookSearchTool</ShortName>
+    <Description>Search for e-books </Description>
+    <Tags>Ebooksearch</Tags>
+    <Contact/>
+    <!-- Opensearch description for firefox -->
+<!--    <Image width="32" height="32" type="image/x-icon">http://pricing.com.ua/favicon.ico</Image> -->
+    <Url type="text/html" template="http://{{request.META.HTTP_HOST}}/search?query={searchTerms}"/>
+<!--    <Url type="application/x-suggestions+json" method="GET" template="http://pricing.com.ua/items/suggest.json?q={searchTerms}"/> -->
+
+<!-- OPSD opensearch description -->
+    <Url type="application/atom+xml" template="{{ server }}/search.atom?query={searchTerms?}"/>
+    <Query role="example" searchTerms="robot" />
+
+    <InputEncoding>UTF-8</InputEncoding>
+</OpenSearchDescription>
+
+<!--
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+    <ShortName>EBookSearchTool</ShortName>
+    <Description>Search for e-books </Description>
+    <InputEncoding>UTF-8</InputEncoding>
+    <OutputEncoding>UTF-8</OutputEncoding>
+
+    <Url type="application/atom+xml" template="{{ server }}/search.atom?query={searchTerms?}"/>
+    <Query role="example" searchTerms="robot" />
+    
+    <Url type="application/atom+xml" template="{{ server }}/search.atom?author={searchTerms?}"/>
+    <Query role="example" searchTerms="pushkin"/>
+    
+    <Url type="application/atom+xml" template="{{ server }}/search.atom?title={searchTerms?}"/>
+    <Query role="example" searchTerms="robot"/>
+    
+    <Url type="application/atom+xml" template="{{ server }}/search.atom?items_per_page={count?};query={searchTerms?}"/>
+    <Query role="example" searchTerms="rad hat" count="2" />
+    
+    <Url type="application/atom+xml" template="{{ server }}/search.atom?page={count?};author={searchTerms?}"/>
+    <Query role="example" searchTerms="Pushkin" count="2" />
+    
+</OpenSearchDescription>
+-->

@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block head %}
+    <title>
+        eBookSearch Catalog
+    </title>
+{% endblock %}   
+
+{% block body %}
+    <center>
+     <a href="/"><img alt="eBookSearch" border="0" hspace="10"  src="/{{ MEDIA_URL }}/pic/title.png" title="eBookSearch" /></a>
+    </center>
+
+    <div id="header">
+        <center><input type="hidden" maxlength="2048" size="40" class="lst" value=""/></center>
+        <center>
+            <div id="search_section">
+                <form action="search" onsubmit="return checkForm(this);" name="simple_search" >
+
+                    <table cellpadding="0" cellspacing="0">
+                        <tr valign="top">
+                            <td width="25%">&nbsp;</td>
+                            <td align="center">
+                                  <input class="search-field lst" type="text" maxlength="2048"  name="query" value=""/>
+                            </td>
+                            <td width="25%" align="left" id="sbl">
+                                &nbsp;<input class="green-button button" type="submit" value="{% trans "Search" %}" /><font size="-2">&nbsp;&nbsp;<a href="extended_search" rel="extended search">{%trans "Extended search"%}</a></font>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </center>
+        {%if suggestions%}
+            <h4>{%trans "Did you mean"%}: <a href="search?query={{ suggestions.query }}" class="gray">{{ suggestions.query }}</a></em></h4>
+        {%endif%}
+
+    </div>
+
+    </div>
+
+    <center>
+        <table id="list" cellpadding="2" cellspacing="3">
+            <tr>
+                <td><a class="odd" href="discover/authors">{% trans "Authors"%}</a></td>
+                <td>{% trans "Alpha index of the authors available" %}</td>
+            </tr>
+            <tr>
+                <td><a class="even" href="discover/languages">{% trans "Languages" %}</a></td>
+                <td>{% trans "Browse by languages" %} </td></tr>
+            <tr>
+                <td><a class="odd" href="discover/subjects">{% trans "Subjects" %}</a> </td>
+                <td>{% trans "Browse by subjects" %}</td></tr>
+            <tr>
+                <td><a class="even" href="epub">{% trans "Epub creating" %}</a> </td>
+                <td>{% trans "Create epub from your files(for authors)" %}</td>
+            </tr>
+            <!-- 
+            <tr>
+                <td><a class="odd" href="from/lib/ru">{% trans "From lib.ru" %}</a> </td>
+                <td>{% trans "Get book from lib.ru in .epub"%}</td></tr> -->
+            <tr>
+                <td><a class="odd" href="catalog.atom">OPDS {% trans "catalog" %}</a></td>
+                <td>{%trans "Catalog in OPDS format"%}</td>
+            </tr>
+            <tr>
+                <td><a class="even" href="libru/catalog.atom">Lib.ru OPDS</a></td>
+                <td>{%trans "Catalog Lib.ru in OPDS format"%}</td>
+            </tr>
+             <tr>
+                <td><a class="odd" href="/magazines/">{% trans "Magazines OPDS" %}</a></td>
+                <td>{%trans "OPDS Catalog of magazines"%}</td>
+            </tr>
+        </table>
+    </center>
+{% endblock %}

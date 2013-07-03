@@ -1,0 +1,4 @@
+Как запустить демона:
+
+залогиниться (ssh 192.168.216.133 -l student)
+sphinx/bin/searchd -c sphinx/sphinx.conf

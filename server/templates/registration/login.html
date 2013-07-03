@@ -1,0 +1,21 @@
+{% extends "epub/base.xhtml"%}
+{% load i18n %}
+{% block tilte %}{% trans "Log in" %}{% endblock %}
+{% block content %}
+    <h1>{% trans "Log in" %}</h1>
+
+    {% if form.errors %}
+        <p style="color: red;">
+            {% blocktrans with form.errors|pluralize as errors %} 
+                Please correct the error{{ errors }} below 
+            {% endblocktrans %}
+        </p>
+    {% endif %}
+
+    <form action="" method="post">
+        <table>
+            {{ form.as_table }}
+        </table>
+        <input type="submit" value="{% trans "Log in" %}">
+    </form>
+{% endblock%}

@@ -1,0 +1,40 @@
+{% include 'book/opds/header.xml' %}
+{% load i18n %}
+{% load poll_extras %}
+    <link href="discover/authors.atom?" rel="alternate"></link>
+    
+    <link href="discover/authors.atom?" rel="self"/>
+    
+    <title> {% trans "Authors" %} </title>
+    
+{% if strings %}
+    {% for string in strings %}
+        {% for letter in string %}
+        <entry>
+            {% ifequal num 1 %}
+                <title> {{ letter.0 }} </title>
+                <link type="application/atom+xml" href="authors.atom?letter={{ letter.0|quote }}"/>
+                <updated></updated>
+                <id>authors.atom?letter={{ letter.0 }}</id>
+                <content type="text">{% trans "Books count" %}: {{ letter.1 }}</content>
+            {% else %}
+                <title> {{ letter.0 }} </title>
+                <link type="application/atom+xml" href="authors.atom?letters={{ letter.0|quote }}"/>
+                <updated></updated>
+                <id>authors.atom?letters={{ letter.0 }}</id>
+                <content type="text">{% trans "Books count" %}: {{ letter.1 }}</content>
+            {% endifequal %}
+        </entry>
+        {% endfor %}
+    {% endfor %}
+{% else %}
+    {% for author in authors %}
+    <entry>
+        <title> {{ author.name }} </title>
+        <link type="application/atom+xml" href="../author.atom/id{{ author.id }}"/>
+        <updated></updated>
+        <id>authors.atom?id{{ author.id }}/books.atom</id>
+    </entry>
+    {% endfor %}
+{% endif %} 
+</feed>

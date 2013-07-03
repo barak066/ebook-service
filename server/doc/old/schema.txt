@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<xs:schema
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:ebst="http://ebookst.org"
+  targetNamespace="http://www.ebookst.org"
+  elementFormDefault="qualified">
+
+
+<xs:element name="book">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="title" type="xs:string" maxOccurs="1"/>
+      <xs:element name="lang" type="xs:string" maxOccurs="1"/>
+      <xs:element name="authors" type="ebst:authors" maxOccurs="1"/>
+      <xs:element name="annotation" type="ebst:text_and_id" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+
+<xs:element name="authors">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="author" type="ebst:text_and_id" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="text_and_id">
+  <xs:complexType>
+    <xs:simpleContent>
+      <xs:extension base="basetype">
+        <xs:attribute name="id" type="xs:integer" />
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+</xs:element>
+
+
+<xs:element name="files">
+  <xs:complexType>
+   <xs:sequence>
+      <xs:element name="file" type="ebst:file" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="file">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:attribute name="id" type="xs:integer" />
+
+      <xs:element name="link" type="xs:string" />
+      <xs:element name="size" type="xs:integer" />
+      <xs:element name="type" type="xs:string" />
+
+      <xs:element name="time_found" type="xs:string" />
+      <xs:element name="last_check" type="xs:string" />
+
+      <xs:element name="more_info" type="xs:string" />
+      <xs:element name="img_link" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+
+
+
+</xs:schema>

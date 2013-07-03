@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+{% load i18n %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="content-type" content="application/xhtml+xml; charset=utf-8" />
+  
+    <!-- Links --> 
+    <link rel="search" type="application/opensearchdescription+xml" title="Ebooksearch" href="opensearch" />
+    <link href="{{MEDIA_URL}}/css/base.css" rel="stylesheet" />
+    <link rel="icon" href="{{MEDIA_URL}}/favicon.ico" type="image/x-icon"/>
+
+{# add your title and close head tag #}

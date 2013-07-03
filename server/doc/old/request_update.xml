@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- See more description on wiki page 'DataModifyInterface' -->
+<request>
+
+    <!-- Put your definition here -->
+    <define>
+        <!-- 'ui' - unique identifier in this request  -->
+        <author ui="1">
+            <full_name> </full_name>
+        </author>
+
+        <book ui="2">
+            <title> </title>
+            <lang> </lang>
+        </book>
+
+        <file ui="3">
+            <link> </link>
+            <type> </type>
+            <size> </size>
+        </file>
+
+    </define>
+
+
+    <update>
+        
+        <!-- Updating information about existed author (by id) -->
+        <author id="345">
+            <full_name> </full_name>
+        </author>
+
+        <!-- Adding existed or now-created authors
+             to now-created book (by ui) -->
+        <book ui="2">
+            <title> </title>
+            <authors>
+                <author id="343" />
+                <author ui="1" />
+            </authors>
+        </book>
+
+        <!-- Updating information about authors
+             If reset='author' ,
+             then you have to enumerate all book's authors.
+             It is useful for removing author from book's authors list -->
+        <book id="34" reset="author">
+            <authors>
+                <!-- you have to enumerate all authors -->
+                <author id="43" />
+                <author ui="1" />
+            </authors>
+        </book>
+
+        <!-- Behavior is like for author, but for file -->
+        <book id="34" reset="file">
+            <files>
+                <!-- you have to enumerate all files -->
+                <file id="57" />
+                <file ui="3" />
+            </files>
+        </book>
+
+    </update>
+
+
+</request>

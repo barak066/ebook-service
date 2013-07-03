@@ -1,0 +1,24 @@
+{% include 'book/opds/header.xml' %}
+{% load i18n %}
+    <link href="discover/languages.atom?" rel="alternate"></link>
+    
+    <link href="discover/languages.atom?" rel="self"/>
+    
+    <title> {% trans "Books by languages" %}</title>
+    
+    <!--id></id>
+    <updated></updated>
+    <icon></icon>
+    <author></author-->
+    
+    {% for lang in languages %} 
+    <entry>
+        <title> {{ lang.full }} </title>
+        <link type="application/atom+xml" href="/search.atom?lang={{ lang.short }}"/>
+        <updated></updated>
+        <id>/search.atom?lang={{ lang.short }}</id>
+        <content type="text">{% trans "Books written in" %}: {{ lang.full }}</content>
+    </entry>
+    {% endfor %} 
+
+</feed>

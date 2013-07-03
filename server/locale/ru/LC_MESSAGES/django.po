@@ -1,0 +1,528 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-14 15:09+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: settings.py:44
+msgid "Russian"
+msgstr ""
+
+#: settings.py:45
+msgid "English"
+msgstr ""
+
+#: settings.py:74
+msgid "account/"
+msgstr ""
+
+#: settings.py:74
+msgid "signin/"
+msgstr ""
+
+#: views.py:488 views.py:573
+msgid "No such language."
+msgstr "Недопустимый язык."
+
+#: views.py:520 views.py:604
+msgid "Book name should be unique"
+msgstr "Имя книги должно быть уникальным"
+
+#: views.py:528
+msgid "Book successfully created."
+msgstr "Книга успешно создана"
+
+#: book/widgets.py:58
+msgid "Lookup"
+msgstr ""
+
+#: book/widgets.py:178
+msgid "Add Another"
+msgstr ""
+
+#: forms/views_forms.py:30 forms/views_forms.py:43 forms/views_forms.py:62
+msgid "Title"
+msgstr "Название"
+
+#: forms/views_forms.py:34
+msgid "Author"
+msgstr "Автор"
+
+#: forms/views_forms.py:45 forms/views_forms.py:64
+msgid "Language"
+msgstr "Язык"
+
+#: forms/views_forms.py:48 forms/views_forms.py:74
+msgid "Subject"
+msgstr "Тема"
+
+#: forms/views_forms.py:51 forms/views_forms.py:83
+msgid "Description"
+msgstr "Описание"
+
+#: forms/views_forms.py:53 forms/views_forms.py:76
+msgid "Type"
+msgstr "Жанр"
+
+#: forms/views_forms.py:55
+msgid "Date"
+msgstr "Дата"
+
+#: forms/views_forms.py:57 forms/views_forms.py:80
+msgid "Rights"
+msgstr "Права"
+
+#: forms/views_forms.py:59 forms/views_forms.py:67
+msgid "File"
+msgstr "Файл"
+
+#: forms/views_forms.py:70
+msgid "Table of contents"
+msgstr "Оглавление"
+
+#: forms/views_forms.py:72
+msgid "Tags"
+msgstr "Жанры"
+
+#: forms/views_forms.py:78
+msgid "Date of publication"
+msgstr "Дата публикации"
+
+#: sentry/conf.py:35
+msgid "debug"
+msgstr ""
+
+#: sentry/conf.py:36
+msgid "info"
+msgstr ""
+
+#: sentry/conf.py:37
+msgid "warning"
+msgstr ""
+
+#: sentry/conf.py:38 sentry/models.py:102
+#, fuzzy
+msgid "error"
+msgstr "Ошибка"
+
+#: sentry/conf.py:39
+#, fuzzy
+msgid "fatal"
+msgstr "каталог"
+
+#: sentry/feeds.py:35
+#, fuzzy
+msgid "log messages"
+msgstr "Сообщение"
+
+#: sentry/feeds.py:66
+msgid "log summaries"
+msgstr ""
+
+#: sentry/models.py:39
+msgid "unresolved"
+msgstr ""
+
+#: sentry/models.py:40
+msgid "resolved"
+msgstr ""
+
+#: sentry/models.py:74
+#, fuzzy
+msgid "type"
+msgstr "Жанр"
+
+#: sentry/models.py:89
+msgid "traceback"
+msgstr ""
+
+#: sentry/models.py:106
+#, fuzzy
+msgid "description"
+msgstr "Описание"
+
+#: sentry/models.py:124
+msgid "grouped messages"
+msgstr ""
+
+#: sentry/models.py:125
+msgid "grouped message"
+msgstr ""
+
+#: sentry/models.py:245
+msgid "message"
+msgstr ""
+
+#: sentry/models.py:246
+#, fuzzy
+msgid "messages"
+msgstr "Сообщение"
+
+#: sentry/models.py:263
+msgid "no data"
+msgstr ""
+
+#: sentry/models.py:268 sentry/models.py:273
+msgid "url"
+msgstr ""
+
+#: sentry/models.py:304
+msgid "server name"
+msgstr ""
+
+#: sentry/models.py:305
+msgid "logger"
+msgstr ""
+
+#: sentry/models.py:306
+msgid "site"
+msgstr ""
+
+#: sentry/templates/sentry/group/details.html:9
+msgid "Back to list"
+msgstr ""
+
+#: sentry/templates/sentry/group/details.html:170
+#, fuzzy
+msgid "Additional Data"
+msgstr "Дополнительные жанры"
+
+#: spec/external/pagination/templates/pagination/pagination.html:5
+#: spec/external/pagination/templates/pagination/pagination.html:7
+#: spec/external/pagination/templates/pagination/pagination_ajax.html:5
+#: spec/external/pagination/templates/pagination/pagination_ajax.html:7
+msgid "previous"
+msgstr "предыдущая"
+
+#: spec/external/pagination/templates/pagination/pagination.html:21
+#: spec/external/pagination/templates/pagination/pagination.html:23
+#: spec/external/pagination/templates/pagination/pagination_ajax.html:21
+#: spec/external/pagination/templates/pagination/pagination_ajax.html:23
+msgid "next"
+msgstr "следующая"
+
+#: templates/404.html:4 templates/404.html.py:8 templates/500.html:4
+#: templates/500.html.py:8
+msgid "Page not found"
+msgstr ""
+
+#: templates/404.html:10 templates/500.html:10
+msgid "We're sorry, but the requested page could not be found."
+msgstr ""
+
+#: templates/base.html:41
+msgid "log out"
+msgstr "выход"
+
+#: templates/base.html:54
+msgid "Project on google code"
+msgstr "Проект на google code"
+
+#: templates/admin/change_form.html:28 templates/admin/change_list.html:25
+msgid "Home"
+msgstr ""
+
+#: templates/admin/change_form.html:31
+msgid "Add"
+msgstr ""
+
+#: templates/admin/change_form.html:41
+msgid "History"
+msgstr ""
+
+#: templates/admin/change_form.html:42
+msgid "View on site"
+msgstr ""
+
+#: templates/admin/change_form.html:53 templates/admin/change_list.html:54
+msgid "Please correct the error below."
+msgid_plural "Please correct the errors below."
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/admin/change_list.html:46
+#, python-format
+msgid "Add %(name)s"
+msgstr ""
+
+#: templates/admin/change_list.html:65
+msgid "Filter"
+msgstr ""
+
+#: templates/book/base.html:5 templates/book/base.html.py:22
+msgid "Register"
+msgstr "Регистрация"
+
+#: templates/book/base.html:16
+msgid "Create epub book"
+msgstr "Создание epub"
+
+#: templates/book/base.html:19
+msgid "Sign in"
+msgstr "Войти"
+
+#: templates/epub/add_book.html:4
+msgid "Add book."
+msgstr ""
+
+#: templates/epub/add_book.html:12 templates/epub/add_book.html.py:22
+msgid "Create book from txt file"
+msgstr "Создать книгу из файла txt"
+
+#: templates/epub/add_book.html:15 templates/epub/add_book.html.py:29
+msgid "Create book from doc file"
+msgstr "Создать книгу из файла doc"
+
+#: templates/epub/add_doc_form.html:5
+msgid "Add doc book."
+msgstr ""
+
+#: templates/epub/add_doc_form.html:9
+msgid "Please choose .doc file"
+msgstr "Пожалуйста, выберите файл .doc"
+
+#: templates/epub/add_doc_form.html:13 templates/epub/epub_form.html:18
+msgid "Message"
+msgstr "Сообщение"
+
+#: templates/epub/add_doc_form.html:19 templates/registration/login.html:9
+#, python-format
+msgid ""
+" \n"
+"                Please correct the error%(errors)s below \n"
+"            "
+msgstr ""
+
+#: templates/epub/add_doc_form.html:37
+#, fuzzy
+msgid "Submit"
+msgstr "Тема"
+
+#: templates/epub/epub_form.html:4
+msgid "Epub creation"
+msgstr "Создание epub книги"
+
+#: templates/epub/epub_form.html:10
+msgid "Error"
+msgstr "Ошибка"
+
+#: templates/epub/epub_form.html:28
+msgid "Create"
+msgstr "Создать"
+
+#: templates/registration/login.html:3 templates/registration/login.html:5
+#: templates/registration/login.html:19
+msgid "Log in"
+msgstr "Вход"
+
+#~ msgid "Go"
+#~ msgstr "Изменить"
+
+#~ msgid "Search"
+#~ msgstr "Поиск"
+
+#~ msgid "Please correct the error below"
+#~ msgid_plural "Please correct the errors below"
+#~ msgstr[0] "Пожалуйста, исправьте ошибку, указанную ниже"
+#~ msgstr[1] "Пожалуйста, исправьте ошибки, указанные ниже"
+
+#~ msgid "Change language:"
+#~ msgstr "Изменить язык:"
+
+#~ msgid "Your search did not match any documents."
+#~ msgstr "Не найдено ни одного документа, соответствующего вашему запросу"
+
+#~ msgid "Suggestions"
+#~ msgstr "Рекомендации"
+
+#~ msgid "Make sure all words are spelled correctly."
+#~ msgstr "Убедитесь, что все слова написаны без ошибок."
+
+#~ msgid "Try fewer keywords."
+#~ msgstr "Попробуйте использовать меньше слов."
+
+#~ msgid "Authors"
+#~ msgstr "Авторы"
+
+#~ msgid "Books by language"
+#~ msgstr "Языки"
+
+#~ msgid "Books by tag"
+#~ msgstr "Жанры"
+
+#~ msgid "Extended search"
+#~ msgstr "Расширенный поиск"
+
+#~ msgid "Did you mean"
+#~ msgstr "Возможно вы имели ввиду"
+
+#~ msgid "Alpha index of the authors available"
+#~ msgstr "Алфавитный список авторов"
+
+#~ msgid "Languages"
+#~ msgstr "Языки"
+
+#~ msgid "Browse by languages"
+#~ msgstr "Книги на разных языках"
+
+#~ msgid "Subjects"
+#~ msgstr "Жанры"
+
+#~ msgid "Browse by subjects"
+#~ msgstr "Книги разных жанров"
+
+#~ msgid "Catalog in OPDS format"
+#~ msgstr "Каталог в формате OPDS"
+
+#~ msgid "Catalog Lib.ru in OPDS format"
+#~ msgstr "Каталог Lib.ru в формате OPDS"
+
+#~ msgid "Simple search"
+#~ msgstr "Простой поиск"
+
+#~ msgid "Tag"
+#~ msgstr "Жанр"
+
+#~ msgid "More results"
+#~ msgstr "Больше"
+
+#~ msgid "Found in books"
+#~ msgstr "Найденно в книгах"
+
+#~ msgid "Epub creating"
+#~ msgstr "Создание epub"
+
+#~ msgid "Create epub from your files(for authors)"
+#~ msgstr "Создавайте epub из своих файлов(для авторов)"
+
+#~ msgid "Create epub books(for authors)"
+#~ msgstr "Создавайте epub книги(для авторов)"
+
+#~ msgid "From lib.ru"
+#~ msgstr "С сайта lib.ru"
+
+#~ msgid "Get book from lib.ru in .epub"
+#~ msgstr "Получайте книги с lib.ru в формате epub"
+
+#~ msgid "Filter books in a specific language"
+#~ msgstr "Книги, отсортированные по языкам"
+
+#~ msgid "Search books using"
+#~ msgstr "Ищите книги с помощью"
+
+#~ msgid "simple search"
+#~ msgstr "простого поиска"
+
+#~ msgid "extended"
+#~ msgstr "расширенного "
+
+#~ msgid "Browse through books based on their subjects"
+#~ msgstr "Книги, отсортированные по жанрам"
+
+#~ msgid "Create an account"
+#~ msgstr "Создать учетную запись"
+
+#~ msgid "Download"
+#~ msgstr "Загрузки"
+
+#~ msgid "Quick search"
+#~ msgstr "Быстрый поиск"
+
+#~ msgid "No authors found"
+#~ msgstr "Авторы не найдены"
+
+#~ msgid "Similar books:"
+#~ msgstr "Похожие книги:"
+
+#~ msgid "Search results for"
+#~ msgstr "Результаты поиска"
+
+#~ msgid "Authors name starts with"
+#~ msgstr "Авторы, имена которых начинаются с"
+
+#~ msgid "Books written in"
+#~ msgstr "Язык книги"
+
+#~ msgid "Lib.ru OPDS catalog"
+#~ msgstr "OPDS каталог lib.ru"
+
+#~ msgid "No results"
+#~ msgstr "Нет результатов"
+
+#~ msgid "Query"
+#~ msgstr "Запрос"
+
+#~ msgid "Book subject"
+#~ msgstr "Книги жанра"
+
+#~ msgid "Books count"
+#~ msgstr "Количество книг"
+
+#~ msgid "Show additional tags"
+#~ msgstr "Показать дополнительные жанры"
+
+#~ msgid "Magazines OPDS"
+#~ msgstr "OPDS журналов"
+
+#~ msgid "OPDS Catalog of magazines"
+#~ msgstr "OPDS каталог журналов"
+
+#~ msgid "by"
+#~ msgstr "автор:"
+
+#~ msgid "Zulu"
+#~ msgstr "Зулусский"
+
+#~ msgid "Bashkir"
+#~ msgstr "Башкирский"
+
+#~ msgid "Azerbaijani"
+#~ msgstr "Азербайджанский"
+
+#~ msgid "Belarusian"
+#~ msgstr "Беларусский"
+
+#~ msgid "Tibetan"
+#~ msgstr "Тибетский"
+
+#~ msgid "Church Slavic, Old Slavonic, Church Slavonic, Old Bulgarian, Old"
+#~ msgstr "Церковно-славянский"
+
+#~ msgid "Esperanto"
+#~ msgstr "Эсперанто"
+
+#~ msgid "Spanish, Castilian"
+#~ msgstr "Испанский"
+
+#~ msgid "Kazakh"
+#~ msgstr "Казахский"
+
+#~ msgid "Latin"
+#~ msgstr "Латынь"
+
+#~ msgid "Romanian, Moldavian, Moldovan"
+#~ msgstr "Молдавский"
+
+#~ msgid "Uzbek"
+#~ msgstr "Узбекский"
+
+#~ msgid "Chinese"
+#~ msgstr "Китайский"
+
+#~ msgid "Swahili"
+#~ msgstr "Суахили"
+
+#~ msgid "Tatar"
+#~ msgstr "Татарский"

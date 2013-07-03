@@ -1,0 +1,30 @@
+<title>{{ book.title }}</title>
+<dcterms:language>{{ book.language.short }}</dcterms:language>
+<id>{{ book.id }}</id>
+<link type="application/atom+xml" href="/book.atom/id{{ book.id }}"/>
+<updated></updated>
+
+
+{% for tag in book.tag.all %}
+    <category term="{{ tag }}"/>
+{% endfor %}
+
+{% for author in book.author.all %}
+<author>
+    <name> {{ author.name }} </name>
+    <uri> author.atom/id{{ author.id }}</uri>
+</author>
+{% endfor %}
+
+<summary> {{ book.annotation.all.0 }} </summary>
+
+<link type="application/atom+xml;type=entry" rel="alternate" title="Full entry" href="/book.atom/id{{ book.id }}"/>
+{% for book_file in book.get_book_files %}
+    <link type="application/{{ book_file.type }}{%ifequal book_file.type "epub"%}+zip {%endifequal%}" href="{{ book_file.link }}" rel="http://opds-spec.org/acquisition" />
+    {%if book_file.img_link%}
+        <link type="image/png" rel="http://opds-spec.org/image/thumbnail" href="{{ book_file.img_link }}"/>
+    {% else %}
+        <link type="image/png" rel="http://opds-spec.org/image/thumbnail" href="/{{ MEDIA_URL }}/pic/open_book.png" />
+
+    {%endif%}                
+{% endfor %}   

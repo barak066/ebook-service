@@ -1,0 +1,68 @@
+{% extends "book/base.html" %}
+{% load i18n %}
+
+{% block title %}{{ book.title }}{% endblock %}
+
+{% block style %}
+<style type="text/css">
+    img.cover {margin-top: 3px; max-height: 110px;}
+</style>  
+{% endblock %}
+  
+{% block content %}
+    <br/>
+    <div class="title">
+        <div id="book_title"> {{ book.title }} </div>
+        {% if book.author.all%}
+        <div>
+          <em>&nbsp;&nbsp;&nbsp;by      
+          {% for author in book.author.all %}
+            <a href="../author/id{{ author.id }}" class="gray">{{ author.name }}</a></em>
+          {% endfor %}
+        </div>
+        {% endif %}
+    </div>
+    <br/>
+
+    <div>
+        <div>
+            <table cellpadding="5" cellspacing="5">
+            <tr><td>
+            {% include 'book/xhtml/book_cover.xml' %}
+            </td><td>
+            {% include 'book/xhtml/book_description.xml' %}
+            </td></tr>
+            </table><br/>
+            {% if book.annotation_set.all %}
+                <div class="annotations">
+                    <h3>{% trans "Description" %}</h3>
+                    {% for annotation in book.annotation_set.all %}
+                        <div class="annotations"> {{ annotation.name }} </div>
+                    {% endfor %}          
+                </div>  
+            {% endif %}        
+
+            {% if book.get_book_files %}
+                <div class="downloads">
+                    <h4>{% trans "Download" %}:
+                    {% for book_file in book.get_book_files %}
+                        <a href="{{ book_file.link }}" class="{{ book_file.type }}">
+                            {% if book_file.type %}
+                                {{ book_file.type }}{% else%}unrecognized type
+                            {% endif %}
+                        </a>&nbsp;
+                    {% endfor %}
+                    </h4>
+                </div>
+            {% endif %}
+            {% if sims %}
+                <h3>{% trans "Similar books:" %}</h3>
+                {% for sim in sims %}
+                    <a href="/book/id{{ sim.id }}">{{ sim.title }}</a><br>
+                {% endfor %}
+            {% endif %}
+        </div>
+
+    </div>
+{% endblock %}
+

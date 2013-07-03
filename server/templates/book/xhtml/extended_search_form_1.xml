@@ -1,0 +1,16 @@
+<script type="text/javascript" src="../{{MEDIA_URL}}/js/views/jQuery.js"></script>
+<script type="text/javascript" src="../{{MEDIA_URL}}/js/views/jquery-autocomplete/jquery.autocomplete.js"></script>
+<link rel="stylesheet" type="text/css" href="../{{MEDIA_URL}}/css/jquery.autocomplete.css" />
+<div id="header">
+  
+    <h2>Extended search: </h2>
+
+    <form name="extended_search" action="search">
+    
+        <table>
+            {{form.as_table}}
+
+        </table>
+    </form>
+
+</div>

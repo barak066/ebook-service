@@ -1,0 +1,31 @@
+{% include 'book/opds/header.xml' %}
+{% load i18n %}
+    <link href="search.atom?" rel="alternate"></link>
+
+    {% if next %}    
+        {% include 'book/opds/self_next_links.xml' %}
+    {% endif %}
+
+    <title>{% trans "Search results for" %}:
+        {% trans "Author" %} "{{ author }}";
+    </title>
+
+    <opensearch:totalResults> {{ total }} </opensearch:totalResults>
+    <opensearch:itemsPerPage> {{ items_per_page }} </opensearch:itemsPerPage>
+
+    {% for auth in authors %}
+    <entry>
+        <title>{{ auth.name }} </title>
+        <link type="application/atom+xml" href="author.atom/id{{ auth.id }}"/>
+        <link type="application/atom+xml;type=entry" rel="alternate" title="Full entry" href="author.atom/id{{ auth.id }}"/>
+        <id>author.atom/id{{ auth.id }}</id>
+
+        <updated></updated>
+        <author>
+            <name> {{ auth.name }} </name>
+            <uri> author.atom/id{{ auth.id }}</uri>
+        </author>
+    </entry>
+    {% endfor %}
+</feed>
+

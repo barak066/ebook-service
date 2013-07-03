@@ -1,0 +1,25 @@
+{% include 'book/opds/header.xml' %}
+{% load i18n %}
+{% load poll_extras %}
+    <link href="discover/tags.atom?" rel="alternate"></link>
+    
+    <link href="discover/tags.atom?" rel="self"/>
+    
+    <title> {% trans "Books by subjects" %} </title>
+    
+    <!--id></id>
+    <updated></updated>
+    <icon></icon>
+    <author></author-->
+    
+    {% for tag in tags %}
+    <entry>
+        <title> {{ tag }} </title>
+        <link type="application/atom+xml" href="/search.atom?tag={{ tag|quote }}"/>
+        <updated></updated>
+        <id>/search.atom?tag={{ tag }}</id>
+        <content type="text">{% trans "Book subject" %}: {{ tag }}</content>
+    </entry>
+    {% endfor %}
+
+</feed>

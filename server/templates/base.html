@@ -1,0 +1,62 @@
+{% load localeurl_tags i18n %}
+
+{#{% get_current_language as LANGUAGE_CODE %}#}
+{#{% get_available_languages as LANGUAGES %}#}
+{#{% get_current_language_bidi as LANGUAGE_BIDI %}#}
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Strict//EN'
+    'http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd'>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="{{ LANGUAGE_CODE }}">
+    <head>
+        <meta http-equiv="content-type" content="application/xhtml+xml; charset=utf-8" />
+
+        <!-- Links --> 
+        <link rel="search" type="application/opensearchdescription+xml" title="Ebooksearch" href="opensearch" />
+        <link href="/{{ MEDIA_URL }}/css/base.css" rel="stylesheet" />
+        <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
+        <script type="text/javascript" src="/{{ MEDIA_URL }}/js/views/post_to_url.js"></script>
+        {% block head %}{% endblock %}
+    <script type="text/javascript">
+        function set_language(language) {
+            path =  '/i18n/setlang/'
+            params = {'language' : language}
+            post_to_url(path,params, "{% csrf_token %}")
+        }
+    </script>
+       
+    </head>
+
+    <body>
+        <div id="lang" align="right">
+            <span id="flags">
+                <a href="{{ request.path|chlocale:'ru' }}"><img src="/{{ MEDIA_URL }}/pic/russian.png" alt="Русский" width="32" height="23"/></a>
+                <a href="{{ request.path|chlocale:'en' }}"><img src="/{{ MEDIA_URL }}/pic/english.png" alt="English" width="32" height="23"/></a>
+            </span>
+        </div>
+
+        {% if user %}
+            <div id='username'>
+                <a href='/accounts/profile'>{{ user.username }}</a>
+                {% if not user.is_anonymous %}
+                    , <a href='/logout/'>{% trans "log out" %}</a>
+                {% endif %}
+            </div>
+        {% endif %}
+        {% block body %}{% endblock %}
+
+        {% if bottom_string %}
+            
+            <div id='bottom' style="text-align: center; ">
+                <p>{{bottom_string}}</p>
+                <p>
+                    email: <a href="mailto:ebook-service@googlegroups.com">ebook-service@googlegroups.com</a> 
+                    |
+                    <a href = '{{google_link}}'> {%trans "Project on google code"%} </a>
+                </p>
+
+            </div>
+        {% endif %}
+
+    </body>
+</html>
+

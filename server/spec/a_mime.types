@@ -1,0 +1,6 @@
+# MIME type					Extensions
+application/epub+zip			epub
+application/x-fb2		fb2
+application/rtf			rtf
+application/oebps-package+xml			opf
+application/x-pdb			pdb

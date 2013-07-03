@@ -1,0 +1,31 @@
+{% load i18n %}
+<br/>
+<div id="header">
+<script type="text/javascript">function checkForm(form) {
+    var errorList = [];    
+    for (var i = 0; i < form.elements.length; i++) {
+    el = form.elements[i];
+    elName = el.nodeName.toLowerCase();
+    value = el.value;
+    if (elName == "input") {
+        type = el.type.toLowerCase();
+        if( type == "text" && value == "") {
+                errorList.push(1);
+        }
+    }
+    }
+if (!errorList.length) return true;
+return false;
+
+}
+</script>
+    <form name="simple_search" onsubmit="return checkForm(this);" action="search">
+        <input type="text" style="width: 303px;" name="query" value="{{query}}">
+        <input type="submit" value="{% trans "Search" %}" >
+        <a href="extended_search" rel="extended search">{%trans "Extended search"%}</a>
+    </form>
+{%if suggestions%}
+        <h4>{%trans "Did you mean"%}: <a href="search?query={{ suggestions.query }}" class="gray">{{ suggestions.query }}</a></em></h4>
+{%endif%}
+    
+</div>

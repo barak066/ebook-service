@@ -1,0 +1,15 @@
+<response>
+    <status>ok</status>
+
+    <result_length> {{ authors|length }} </result_length>
+
+    <authors>
+        {% for author in authors %}
+        <author id="{{ author.id }}">
+            <name> {{ author.name }} </name>
+            <rel> {{ author.sphinx_weight }} </rel>
+        </author>
+        {% endfor %}
+    </authors>
+
+</response>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+    <status> {{ status }} </status>
+    <books>
+        {% for book in books %}
+        <book id="{{ book.id }}">
+            <title> {{ book.title }} </title>
+            <lang> {{ book.language.short }} </lang>
+    
+            <authors>
+                {% for author in book.author.all %}
+                <author id="{{ author.id }}">
+                    <name> {{ author.name }}</name>
+                    <aliases>
+                        {% for alias in author.author_alias.all %}    
+                        <alias id="{{ alias.id }}"> {{ alias.name }}</alias>
+                        {% endfor %}
+                    </aliases>
+                </author>
+                {% endfor %}
+            </authors>
+    
+            <files>
+                {% for file in book.book_file.all %}
+                <file id="{{ file.id }}">
+                    <link> {{ file.link }} </link>
+                    {% if file.size %}
+                    <size> {{ file.size }} </size>
+                    {% endif %}
+                    <type> {{ file.type }} </type>
+    
+                    <time_found> {{ file.time_found }} </time_found>
+                    <last_check> {{ file.last_check }} </last_check>
+    
+                    {% if file.more_info %}
+                    <more_info> {{ file.more_info }} </more_info>
+                    {% endif %}
+                    {% if file.img_link %}
+                    <img_link> {{ file.img_link }} </img_link>
+                    {% endif %}
+                </file>
+                {% endfor %}
+            </files>
+            
+            {% for annotation in book.annotation.all %}
+            <annotation id="{{ annotation.id }}"> {{ annotation.name }} </annotation>
+            {% endfor %}
+        </book>
+        {% endfor %}
+    </books>
+</response>

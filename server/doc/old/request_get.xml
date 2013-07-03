@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Search types:
+     if type=""          => full matching
+        type="icontains" => contains case insensitive
+        type="gt"        => greater than (for size, time_found, last_check)
+        type="lt"        => less than
+        type="search"    => full-text search with "+", "-", etc.
+    
+if type is not defined, uses default search type
+For most tags default search type is full matching,
+look in xml example for other tags.
+
+tags book, author, file support attribute id
+-->
+
+<book>
+    <title type="icontains"></title>
+    <lang></lang>
+
+    <authors>
+        <author type="icontains"> </author>
+        <author> </author>
+    </authors>
+
+    <files>
+        <file>
+            <link></link>
+            <size></size>
+            <type></type>
+            <time_found></time_found>
+            <last_check></last_check>
+
+            <more_info type="icontains"></more_info>
+            <img_link></img_link>
+        </file>
+    </files>
+
+    <annotation type="icontains"></annotation>
+
+</book>

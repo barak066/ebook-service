@@ -1,0 +1,8 @@
+<entry>
+    <title>{{ entry.title }}</title>
+    {% for link in entry.links %}
+    <link {% for att,value in link.atts_get %} {{att}}="{{value}}" {% endfor %} />{% endfor %}
+    <updated>{{ entry.updated }}</updated>
+    <id>{{ entry.id }}</id>
+    <content type="text">{{ entry.content }}</content>
+</entry>

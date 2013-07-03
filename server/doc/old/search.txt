@@ -1,0 +1,12 @@
+See book/search.py for more details.
+
+Usage example
+
+search_engine = SphinxSearchEngine()
+
+print search_engine.author_search(author='jack london', max_length=10)
+print
+print search_engine.book_search(title='milan', author='casanova', max_length=10)
+print
+print search_engine.simple_search('casanove milan', max_length=10)
+

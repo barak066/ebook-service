@@ -1,0 +1,37 @@
+{% include 'book/opds/header.xml' %}
+{% load i18n %}
+    <link href="catalog.atom?" rel="alternate"></link>
+    
+    <link href="catalog.atom?" rel="self"/>
+    
+    <title> eBookSearch OPDS catalog </title>
+    
+    <!--id></id>
+    <updated></updated>
+    <author></author-->
+    <icon>http://service.ebooksearch.webactional.com/smedia/pic/favicon.ico</icon>
+    
+    <entry>
+        <title> {% trans "Authors" %} </title>
+        <link type="application/atom+xml" href="discover/authors.atom"/>
+        <updated></updated>
+        <id>discover/authors.atom</id>
+        <content type="text">{% trans "Alpha index of the authors available" %}</content>
+    </entry>
+
+    <entry>
+        <title> {% trans "Languages" %} </title>
+        <link type="application/atom+xml" href="discover/languages.atom"/>
+        <updated></updated>
+        <id>discover/languages.atom</id>
+        <content type="text">{% trans "Browse by languages" %}</content>
+    </entry>
+
+    <entry>
+        <title> {% trans "Subjects" %} </title>
+        <link type="application/atom+xml" href="discover/subjects.atom"/>
+        <updated></updated>
+        <id>discover/subjects.atom</id>
+        <content type="text">{% trans "Browse by subjects" %}</content>
+    </entry>
+</feed>

@@ -1,0 +1,184 @@
+aa	aar	-	aar	Afar	Afaraf	
+ab	abk	-	abk	Abkhazian	Аҧсуа	
+ae	ave	-	ave	Avestan	avesta	ancient
+af	afr	-	afr	Afrikaans	Afrikaans	
+ak	aka	-	aka + 2	Akan	Akan	macrolanguage, Twi is [tw/twi], Fanti is [fat]
+am	amh	-	amh	Amharic	አማርኛ	
+an	arg	-	arg	Aragonese	Aragonés	
+ar	ara	-	ara + 30	Arabic	العربية	macrolanguage, Standard Arabic is [arb]
+as	asm	-	asm	Assamese	অসমীয়া	
+av	ava	-	ava	Avaric	авар мацӀ, магӀарул мацӀ	
+ay	aym	-	aym + 2	Aymara	aymar aru	macrolanguage
+az	aze	-	aze + 2	Azerbaijani	azərbaycan dili	macrolanguage
+ba	bak	-	bak	Bashkir	башҡорт теле	
+be	bel	-	bel	Belarusian	Беларуская	
+bg	bul	-	bul	Bulgarian	български език	
+bh	bih	-	—	Bihari	भोजपुरी	Collective language code for Bhojpuri, Magahi, and Maithili
+bi	bis	-	bis	Bislama	Bislama	
+bm	bam	-	bam	Bambara	bamanankan	
+bn	ben	-	ben	Bengali	বাংলা	
+bo	bod	tib	bod	Tibetan	བོད་ཡིག	
+br	bre	-	bre	Breton	brezhoneg	
+bs	bos	-	bos	Bosnian	bosanski jezik	
+ca	cat	-	cat	Catalan, Valencian	Català	
+ce	che	-	che	Chechen	нохчийн мотт	
+ch	cha	-	cha	Chamorro	Chamoru	
+co	cos	-	cos	Corsican	corsu, lingua corsa	
+cr	cre	-	cre + 6	Cree	ᓀᐦᐃᔭᐍᐏᐣ	macrolanguage
+cs	ces	cze	ces	Czech	česky, čeština	
+cu	chu	-	chu	Church Slavic, Old Slavonic, Church Slavonic, Old Bulgarian, Old Church Slavonic	ѩзыкъ словѣньскъ	ancient
+cv	chv	-	chv	Chuvash	чӑваш чӗлхи	
+cy	cym	wel	cym	Welsh	Cymraeg	
+da	dan	-	dan	Danish	dansk	
+de	deu	ger	deu	German	Deutsch	
+dv	div	-	div	Divehi, Dhivehi, Maldivian	ދިވެހި	
+dz	dzo	-	dzo	Dzongkha	རྫོང་ཁ	
+ee	ewe	-	ewe	Ewe	Eʋegbe	
+el	ell	gre	ell	Modern Greek	Ελληνικά	
+en	eng	-	eng	English	English	
+eo	epo	-	epo	Esperanto	Esperanto	constructed
+es	spa	-	spa	Spanish, Castilian	español, castellano	
+et	est	-	est + 2	Estonian	eesti, eesti keel	macrolanguage
+eu	eus	baq	eus	Basque	euskara, euskera	
+fa	fas	per	fas + 2	Persian	فارسی	macrolanguage
+ff	ful	-	ful + 9	Fulah	Fulfulde, Pulaar, Pular	macrolanguage
+fi	fin	-	fin	Finnish	suomi, suomen kieli	
+fj	fij	-	fij	Fijian	vosa Vakaviti	
+fo	fao	-	fao	Faroese	føroyskt	
+fr	fra	fre	fra	French	français, langue française	
+fy	fry	-	fry	Western Frisian	Frysk	
+ga	gle	-	gle	Irish	Gaeilge	
+gd	gla	-	gla	Gaelic, Scottish Gaelic	Gàidhlig	
+gl	glg	-	glg	Galician	Galego	
+gn	grn	-	grn + 5	Guaraní	Avañe'ẽ	macrolanguage
+gu	guj	-	guj	Gujarati	ગુજરાતી	
+gv	glv	-	glv	Manx	Gaelg, Gailck	
+ha	hau	-	hau	Hausa	Hausa, هَوُسَ	
+he	heb	-	heb	Modern Hebrew	עברית	
+hi	hin	-	hin	Hindi	हिन्दी, हिंदी	
+ho	hmo	-	hmo	Hiri Motu	Hiri Motu	
+hr	hrv	-	hrv	Croatian	hrvatski	
+ht	hat	-	hat	Haitian, Haitian Creole	Kreyòl ayisyen	
+hu	hun	-	hun	Hungarian	Magyar	
+hy	hye	arm	hye	Armenian	Հայերեն	
+hz	her	-	her	Herero	Otjiherero	
+ia	ina	-	ina	Interlingua (International Auxiliary Language Association)	Interlingua	constructed
+id	ind	-	ind	Indonesian	Bahasa Indonesia	Covered by macrolanguage [ms/msa]
+ie	ile	-	ile	Interlingue, Occidental	Interlingue	constructed
+ig	ibo	-	ibo	Igbo	Igbo	
+ii	iii	-	iii	Sichuan Yi, Nuosu	ꆇꉙ	
+ik	ipk	-	ipk + 2	Inupiaq	Iñupiaq, Iñupiatun	macrolanguage
+io	ido	-	ido	Ido	Ido	constructed
+is	isl	ice	isl	Icelandic	Íslenska	
+it	ita	-	ita	Italian	Italiano	
+iu	iku	-	iku + 2	Inuktitut	ᐃᓄᒃᑎᑐᑦ	macrolanguage
+ja	jpn	-	jpn	Japanese	日本語 (にほんご／にっぽんご)	
+jv	jav	-	jav	Javanese	basa Jawa	
+ka	kat	geo	kat	Georgian	ქართული	
+kg	kon	-	kon + 3	Kongo	KiKongo	macrolanguage
+ki	kik	-	kik	Kikuyu, Gikuyu	Gĩkũyũ	
+kj	kua	-	kua	Kwanyama, Kuanyama	Kuanyama	
+kk	kaz	-	kaz	Kazakh	Қазақ тілі	
+kl	kal	-	kal	Kalaallisut, Greenlandic	kalaallisut, kalaallit oqaasii	
+km	khm	-	khm	Central Khmer	ភាសាខ្មែរ	
+kn	kan	-	kan	Kannada	ಕನ್ನಡ	
+ko	kor	-	kor	Korean	한국어 (韓國語), 조선말 (朝鮮語)	
+kr	kau	-	kau + 3	Kanuri	Kanuri	macrolanguage
+ks	kas	-	kas	Kashmiri	कश्मीरी, كشميري‎	
+ku	kur	-	kur + 3	Kurdish	Kurdî, كوردی‎	macrolanguage
+kv	kom	-	kom + 2	Komi	коми кыв	macrolanguage
+kw	cor	-	cor	Cornish	Kernewek	
+ky	kir	-	kir	Kirghiz, Kyrgyz	кыргыз тили	
+la	lat	-	lat	Latin	latine, lingua latina	ancient
+lb	ltz	-	ltz	Luxembourgish, Letzeburgesch	Lëtzebuergesch	
+lg	lug	-	lug	Ganda	Luganda	
+li	lim	-	lim	Limburgish, Limburgan, Limburger	Limburgs	
+ln	lin	-	lin	Lingala	Lingála	
+lo	lao	-	lao	Lao	ພາສາລາວ	
+lt	lit	-	lit	Lithuanian	lietuvių kalba	
+lu	lub	-	lub	Luba-Katanga		
+lv	lav	-	lav	Latvian	latviešu valoda	
+mg	mlg	-	mlg + 10	Malagasy	Malagasy fiteny	macrolanguage
+mh	mah	-	mah	Marshallese	Kajin M̧ajeļ	
+mi	mri	mao	mri	Māori	te reo Māori	
+mk	mkd	mac	mkd	Macedonian	македонски јазик	
+ml	mal	-	mal	Malayalam	മലയാളം	
+mn	mon	-	mon + 2	Mongolian	Монгол	macrolanguage
+mr	mar	-	mar	Marathi	मराठी	
+ms	msa	may	msa + 13	Malay	bahasa Melayu, بهاس ملايو‎	macrolanguage, Standard Malay is [zsm], Indonesian is [id/ind]
+mt	mlt	-	mlt	Maltese	Malti	
+my	mya	bur	mya	Burmese	ဗမာစာ	
+na	nau	-	nau	Nauru	Ekakairũ Naoero	
+nb	nob	-	nob	Norwegian Bokmål	Norsk bokmål	Covered by macrolanguage [no/nor]
+nd	nde	-	nde	North Ndebele	isiNdebele	
+ne	nep	-	nep	Nepali	नेपाली	
+ng	ndo	-	ndo	Ndonga	Owambo	
+nl	nld	dut	nld	Dutch, Flemish	Nederlands, Vlaams	
+nn	nno	-	nno	Norwegian Nynorsk	Norsk nynorsk	Covered by macrolanguage [no/nor]
+no	nor	-	nor + 2	Norwegian	Norsk	macrolanguage
+nr	nbl	-	nbl	South Ndebele	isiNdebele	
+nv	nav	-	nav	Navajo, Navaho	Diné bizaad, Dinékʼehǰí	
+ny	nya	-	nya	Chichewa, Chewa, Nyanja	chiCheŵa, chinyanja	
+oc	oci	-	oci	Occitan (after 1500)	Occitan	
+oj	oji	-	oji + 7	Ojibwa	ᐊᓂᔑᓈᐯᒧᐎᓐ	macrolanguage
+om	orm	-	orm + 4	Oromo	Afaan Oromoo	macrolanguage
+or	ori	-	ori	Oriya	ଓଡ଼ିଆ	
+os	oss	-	oss	Ossetian, Ossetic	Ирон æвзаг	
+pa	pan	-	pan	Panjabi, Punjabi	ਪੰਜਾਬੀ, پنجابی‎	
+pi	pli	-	pli	Pāli	पाऴि	ancient
+pl	pol	-	pol	Polish	polski	
+ps	pus	-	pus + 3	Pashto, Pushto	پښتو	macrolanguage
+pt	por	-	por	Portuguese	Português	
+qu	que	-	que + 44	Quechua	Runa Simi, Kichwa	macrolanguage
+rm	roh	-	roh	Romansh	rumantsch grischun	
+rn	run	-	run	Rundi	kiRundi	
+ro	ron	rum	ron	Romanian, Moldavian, Moldovan	română	[mo] for Moldavian has been withdrawn, recommending [ro] also for Moldavian
+ru	rus	-	rus	Russian	русский язык	
+rw	kin	-	kin	Kinyarwanda	Ikinyarwanda	
+sa	san	-	san	Sanskrit	संस्कृतम्	ancient
+sc	srd	-	srd + 4	Sardinian	sardu	macrolanguage
+sd	snd	-	snd	Sindhi	सिन्धी, سنڌي، سندھی‎	
+se	sme	-	sme	Northern Sami	Davvisámegiella	
+sg	sag	-	sag	Sango	yângâ tî sängö	
+si	sin	-	sin	Sinhala, Sinhalese	සිංහල	
+sk	slk	slo	slk	Slovak	slovenčina	
+sl	slv	-	slv	Slovene	slovenščina	
+sm	smo	-	smo	Samoan	gagana fa'a Samoa	
+sn	sna	-	sna	Shona	chiShona	
+so	som	-	som	Somali	Soomaaliga, af Soomaali	
+sq	sqi	alb	sqi + 4	Albanian	Shqip	macrolanguage
+sr	srp	-	srp	Serbian	српски језик	
+ss	ssw	-	ssw	Swati	SiSwati	
+st	sot	-	sot	Southern Sotho	Sesotho	
+su	sun	-	sun	Sundanese	Basa Sunda	
+sv	swe	-	swe	Swedish	svenska	
+sw	swa	-	swa + 2	Swahili	Kiswahili	macrolanguage
+ta	tam	-	tam	Tamil	தமிழ்	
+te	tel	-	tel	Telugu	తెలుగు	
+tg	tgk	-	tgk	Tajik	тоҷикӣ, toğikī, تاجیکی‎	
+th	tha	-	tha	Thai	ไทย	
+ti	tir	-	tir	Tigrinya	ትግርኛ	
+tk	tuk	-	tuk	Turkmen	Türkmen, Түркмен	
+tl	tgl	-	tgl	Tagalog	Wikang Tagalog, ᜏᜒᜃᜅ᜔ ᜆᜄᜎᜓᜄ᜔	Note: Filipino (Pilipino) has the code [fil]
+tn	tsn	-	tsn	Tswana	Setswana	
+to	ton	-	ton	Tonga (Tonga Islands)	faka Tonga	
+tr	tur	-	tur	Turkish	Türkçe	
+ts	tso	-	tso	Tsonga	Xitsonga	
+tt	tat	-	tat	Tatar	татарча, tatarça, تاتارچا‎	
+tw	twi	-	twi	Twi	Twi	Covered by macrolanguage [ak/aka]
+ty	tah	-	tah	Tahitian	Reo Mā`ohi	
+ug	uig	-	uig	Uighur, Uyghur	Uyƣurqə, ئۇيغۇرچە‎	
+uk	ukr	-	ukr	Ukrainian	Українська	
+ur	urd	-	urd	Urdu	اردو	
+uz	uzb	-	uzb + 2	Uzbek	O'zbek, Ўзбек, أۇزبېك‎	macrolanguage
+ve	ven	-	ven	Venda	Tshivenḓa	
+vi	vie	-	vie	Vietnamese	Tiếng Việt	
+vo	vol	-	vol	Volapük	Volapük	constructed
+wa	wln	-	wln	Walloon	Walon	
+wo	wol	-	wol	Wolof	Wollof	
+xh	xho	-	xho	Xhosa	isiXhosa	
+yi	yid	-	yid + 2	Yiddish	ייִדיש	macrolanguage
+yo	yor	-	yor	Yoruba	Yorùbá	
+za	zha	-	zha + 16	Zhuang, Chuang	Saɯ cueŋƅ, Saw cuengh	macrolanguage
+zh	zho	chi	zho + 13	Chinese	中文 (Zhōngwén), 汉语, 漢語	macrolanguage
+zu	zul	-	zul	Zulu	isiZulu

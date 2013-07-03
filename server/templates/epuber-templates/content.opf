@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package version="2.0" xmlns="http://www.idpf.org/2007/opf" unique-identifier=
+                      "BookId">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:title>{{ self.title }}</dc:title>
+        <dc:language>{{ self.language }}</dc:language>
+        <dc:identifier id="BookId" opf:scheme="ISBN">
+            {{ self.identifier }}
+        </dc:identifier>
+        <dc:creator opf:role="aut">{{ self.author }}</dc:creator>
+
+        {% if self.authors %}
+            {% for aut in self.authors %}
+
+        <dc:creator opf:role="{{ aut.1 }}">{{ aut.0 }}</dc:creator>
+
+            {% endfor %}
+        {% endif %}
+
+        <dc:subject>{{ self.subject }}</dc:subject>
+        <dc:description>{{ self.description }}</dc:description>
+        <dc:type>{{ self.genre }}</dc:type>
+        <dc:date>{{ self.date }}</dc:date>
+        <dc:rights>{{ self.rights }}</dc:rights>
+    </metadata>
+    <manifest>
+        <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    {% for file in files %}
+        <item id='{{ file.identificator }}' href='{{ file.name }}' 
+            media-type="{{ file.media_type}}"/>
+    {% endfor %}
+    </manifest>
+    <spine toc="ncx">
+    {% for file in self_files %}
+        {% if file.in_spine %}
+            {% if file.is_linear %}
+                <itemref idref='{{ file.identificator }}' />
+            {% else %}
+                <itemref idref='{{ file.identificator }}' linear='no' />
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+
+    </spine>
+    <guide>
+        <reference type="other.intro" title="Introduction"
+            href="0.html" />
+    </guide>
+
+</package>

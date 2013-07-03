@@ -1,0 +1,23 @@
+{% extends "epub/base.xhtml"%}
+
+{% block tilte %}Profile{% endblock %}
+
+{% block content %}
+    <form action="" method="post" enctype="multipart/form-data">
+        <div id="first_name">
+            <label>First name: </label>
+        </div>
+        <div id="first_name">
+            <input name="first_name" value="{{ user.first_name }}"/>
+        </div>
+        <div id="last_name">
+            <label>Last name: </label>
+        </div>
+        <div id="last_name">
+            <input name="last_name" value="{{ user.last_name }}"/>
+        </div>
+        <div id="submit">
+            <input type="submit" value="Change account"/>
+        </div>
+    </form>
+{% endblock %}

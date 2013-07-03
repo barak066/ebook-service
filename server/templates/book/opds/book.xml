@@ -1,0 +1,12 @@
+{% include 'book/opds/header.xml' %}
+
+<link href="book.atom/id{{ book.id }}" rel="alternate"></link>
+<link href="book.atom/id{{ book.id }}" rel="self"/>
+
+<title> {{ book.title }} </title>
+
+<entry>
+    {% include 'book/opds/book_description.xml' %}
+
+</entry>
+</feed>

@@ -1,0 +1,17 @@
+book - object
+
+book.id                  - book id
+book.title               - book title
+book.lang                - book language
+book.author_set.all()    - list of book authors
+book.book_file.all()     - list of book files
+book.annotation.all()    - list of book annotations
+book.tag.all()           - list of book tags
+book.series.all()        - list of book series
+
+
+book_file - object
+
+# see in book/models.py
+
+

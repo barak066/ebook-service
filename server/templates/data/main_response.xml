@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <status>{{ status }}</status>
+
+  {% for msg_type, msg in messages %}
+    {% ifequal msg_type "error" %}
+      <error>{{ msg }}</error>
+    {% else %}
+      {% ifequal msg_type "warning" %}
+      <warning>{{ msg }}</warning>
+      {% else %}
+        {% ifequal msg_type "info" %}
+      <info>{{ msg }}</info>
+        {% else %}
+      <debug>{{ msg }}</debug>
+        {% endifequal %}
+      {% endifequal %}
+    {% endifequal %}
+  {% endfor %}
+
+</response>

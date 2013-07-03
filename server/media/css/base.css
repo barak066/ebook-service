@@ -1,0 +1,271 @@
+/*   main   */
+body, html {
+	height: 100%;
+}
+body {
+	font: 1.00em Verdana, sans-serif; /*12px is font-size for main content. Base font size*/
+	color:#000;
+	background:#fff;
+}
+a.link{color: #003ba6;}
+
+a.serv{
+	text-decoration:none;
+	border-bottom:1px solid #6DA3BD;
+	}
+.input-row{
+	margin-bottom:9px;
+}
+a:hover{ color:#4D7285;}
+
+a img {
+	border:none;
+}
+
+address {
+	font-style:normal;
+}
+
+fieldset {border:0 solid transparent;}
+input, select, textarea {
+	font-size: 100%;
+	font-family: verdana, sans-serif;
+}
+
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,blockquote,fieldset,dl,dt,dd,caption {padding:0;}
+ul,ol {list-style: none;}
+pre,code {font-size: 1em;}
+
+h1, h2, h3, h4, h5, h6 {
+	color:#444444;
+	font-family:Verdana,sans-serif;
+	font-weight:normal;
+	padding:0;
+}
+
+h1 {
+	font-size:162.5%;
+	letter-spacing:-1px;
+
+}
+
+h2 {
+	font-size:150%;
+}
+
+h3 {
+	font-size: 137.5%;
+}
+
+h4 {
+	font-size: 120%;
+}
+
+h5 {
+	font-size: 110%;
+}
+
+h6 {
+	font-size: 100%;
+}
+
+table {border-collapse: collapse;}
+
+blockquote {
+	border-left:2px solid #bbb;
+	margin: .83em 0;
+	padding-left:15px;
+	clear: both;
+}
+
+img[align="center"] {
+    display: block;
+    margin: 0 auto !important;
+}
+
+.hidden { display: none !important;}
+
+div#lang {font-size:0.75em}
+div#author {font-size:1.35em; color:#444444;}
+div#book_title {font-size:1.35em; color:#444444;}
+div.language {font-size:1.15em; color:#444444;}
+div.tags {font-size:1.15em; color:#444444;}
+
+div.author {font-size:1.35em; color:#444444;}
+div.book_title {font-size:1.35em; color:#444444;}
+
+
+/*   main   */
+body, html {
+	height: 100%;
+}
+body {
+	font: 1.00em Verdana, sans-serif; /*12px is font-size for main content. Base font size*/
+	color:#000;
+	background:#fff;
+}
+a.link{color: #003ba6;}
+
+a.serv{
+	text-decoration:none;
+	border-bottom:1px solid #6DA3BD;
+	}
+.input-row{
+	margin-bottom:9px;
+}
+a:hover{ color:#4D7285;}
+
+a img {
+	border:none;
+}
+
+
+address {
+	font-style:normal;
+}
+
+fieldset {border:0 solid transparent;}
+input, select, textarea {
+	font-size: 100%;
+	font-family: verdana, sans-serif;
+}
+
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,blockquote,fieldset,dl,dt,dd,caption {padding:0;}
+ul,ol {list-style: none;}
+pre,code {font-size: 1em;}
+
+h1, h2, h3, h4, h5, h6 {
+	color:#444444;
+	font-family:Verdana,sans-serif;
+	font-weight:normal;
+	padding:0;
+}
+
+h1 {
+	font-size:162.5%;
+	letter-spacing:-1px;
+
+}
+
+h2 {
+	font-size:150%;
+}
+
+h3 {
+	font-size: 137.5%;
+}
+
+h4 {
+	font-size: 120%;
+}
+
+h5 {
+	font-size: 110%;
+}
+
+h6 {
+	font-size: 100%;
+}
+
+table {border-collapse: collapse;}
+
+blockquote {
+	border-left:2px solid #bbb;
+	margin: .83em 0;
+	padding-left:15px;
+	clear: both;
+}
+
+img[align="center"] {
+    display: block;
+    margin: 0 auto !important;
+}
+
+.hidden { display: none !important;}
+
+div#lang {font-size:0.75em}
+div#author {font-size:1.35em; color:#444444;}
+div#book_title {font-size:1.35em; color:#444444;}
+div.language {font-size:1.15em; color:#444444;}
+div.tags {font-size:1.15em; color:#444444;}
+
+div.author {font-size:1.35em; color:#444444;}
+div.book_title {font-size:1.35em; color:#444444;}
+
+
+
+/***** BY ME *****/
+div {
+/*border:1px solid black;
+*/
+
+}
+
+#header {
+   margin-bottom: 50px;  
+}
+.green-button {
+border: 0px;
+background: url('../pic/green-button.png') center center no-repeat;
+width:81px;
+height:24px;
+padding-bottom: 10px;
+}
+
+.button {
+color: white;
+font-weight: bold;
+}
+
+.search-field {
+width: 346px;
+height: 20px;
+
+}
+
+#list a {
+display: block;
+text-align: center;
+font-size: 1em;
+font-family: Arial;
+width: 139px;
+height: 24px;
+color: white;
+font-weight: bold;
+text-decoration: none;
+display: block;
+padding-top: 5px;
+}
+#list .even,
+#list .odd {
+}
+
+#list .odd {
+background: url('../pic/gray-button.png') center center no-repeat;
+}
+#list .even {
+background: url('../pic/light-gray-button.png') center center no-repeat;
+}
+
+#bottom {
+
+margin-top: 70px;
+
+}
+
+#bottom p {
+    margin: 0;
+}
+#bottom a {
+    color: black;
+    font-weight: bold;
+}
+
+
+#username {
+    text-align: right;
+}
+
+#flags img {
+   cursor:pointer;
+}
